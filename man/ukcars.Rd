@@ -2,7 +2,7 @@
 \alias{ukcars}
 \docType{data}
 \title{Quarterly UK passenger car production}
-\description{Quarterly UK passenger car production (thousands of cars). 1997:1-2005:1}
+\description{Quarterly UK passenger car production (thousands of cars). 1977:1-2005:1}
 \usage{data(ukcars)}
 
 \format{time series}
