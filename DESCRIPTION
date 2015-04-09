@@ -1,8 +1,8 @@
 Package: expsmooth
-Title: Data sets from "Forecasting with exponential smoothing"
+Title: Data Sets from "Forecasting with Exponential Smoothing"
 Description: Data sets from the book "Forecasting with exponential smoothing: the state space approach" by 
 	Hyndman, Koehler, Ord and Snyder (Springer, 2008).
-Version: 2.03
+Version: 2.3
 Date: 2015-09-04
 Depends: R (>= 2.0.0), forecast
 LazyData: yes
