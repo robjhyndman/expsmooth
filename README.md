@@ -6,3 +6,4 @@
 An R package containing data from the book ["Exponential smoothing: a state space approach" by Hyndman, Koehler, Ord and Snyder (Springer, 2008)](http://exponentialsmoothing.net)
 
 
+[![](man/figures/expsmooth.jpg)](http://exponentialsmoothing.net)
