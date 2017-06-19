@@ -1,13 +1,14 @@
 Package: expsmooth
 Title: Data Sets from "Forecasting with Exponential Smoothing"
-Description: Data sets from the book "Forecasting with exponential smoothing: the state space approach" by 
+Description: Data sets from the book "Forecasting with exponential smoothing: the state space approach" by
 	Hyndman, Koehler, Ord and Snyder (Springer, 2008).
 Version: 2.3
 Date: 2015-09-04
 Depends: R (>= 2.0.0), forecast
 LazyData: yes
 LazyLoad: yes
-Author: Rob J Hyndman <Rob.Hyndman@monash.edu>
-Maintainer: Rob J Hyndman <Rob.Hyndman@monash.edu>
+Authors@R:
+  person("Rob", "Hyndman", email="Rob.Hyndman@monash.edu", role=c("aut", "cre", "cph"))
 License: GPL (>= 2)
-URL: https://github.com/robjhyndman/expsmooth
+URL: http://pkg.robjhyndman.com/expsmooth, https://github.com/robjhyndman/expsmooth
+RoxygenNote: 6.0.1.9000
