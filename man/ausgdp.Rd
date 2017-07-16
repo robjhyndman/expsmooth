@@ -10,6 +10,9 @@ Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
 Springer.
 }
+\usage{
+ausgdp
+}
 \description{
 Quarterly Australian GDP per capita, 1971:1 - 1998:1
 }

@@ -10,6 +10,9 @@ Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
 Springer
 }
+\usage{
+msales
+}
 \description{
 Monthly sales for a product with shortage indicators. Contains sales (first
 column) and stockout indicator (second column).

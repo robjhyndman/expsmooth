@@ -10,6 +10,9 @@ Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
 Springer.
 }
+\usage{
+bonds
+}
 \description{
 Monthly US government 10-year bond yields (percent pa) from Jan 1994 to May
 2004

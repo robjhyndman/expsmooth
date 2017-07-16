@@ -10,6 +10,9 @@ Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
 Springer
 }
+\usage{
+hospital
+}
 \description{
 Monthly patient count for products that are related to medical problems.
 There are 767 time series that had a mean count of at least 10 and no zeros.

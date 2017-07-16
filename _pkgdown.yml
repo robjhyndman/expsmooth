@@ -16,3 +16,45 @@ navbar:
   right:
     - icon: fa-github fa-lg
       href: https://github.com/robjhyndman/expsmooth
+
+reference:
+  - title: "Annual Data"
+    desc: "Data recorded every year"
+    contents:
+      - freight
+      - usnetelec
+  - title: "Quarterly Data"
+    desc: "Data recorded every quarter"
+    contents:
+      - ausgdp
+      - frexport
+      - ukcars
+      - usgdp
+  - title: "Monthly Data"
+    desc: "Data recorded every month"
+    contents:
+      - bonds
+      - cangas
+      - carparts
+      - djiclose
+      - dji
+      - enplanements
+      - hospital
+      - mcopper
+      - msales
+      - partx
+      - gasprice
+      - unemp.cci
+      - visitors
+      - xrates
+  - title: "Weekly Data"
+    desc: "Data recorded every week"
+    contents:
+      - fmsales
+      - jewelry
+  - title: "Hourly Data"
+    desc: "Data recorded every hour"
+    contents:
+      - utility
+      - vehicles
+

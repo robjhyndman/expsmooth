@@ -10,6 +10,9 @@ Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
 Springer.
 }
+\usage{
+jewelry
+}
 \description{
 Weekly sales of 314 costume jewelry items over the period week 5, 1998 to
 week 24, 2000.

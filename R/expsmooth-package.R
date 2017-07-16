@@ -1,4 +1,18 @@
-
+#' Data sets for "Forecasting with exponential smoothing"
+#'
+#' Data sets from the book "Forecasting with exponential smoothing: the state
+#' space approach" by Hyndman, Koehler, Ord and Snyder (Springer, 2008).
+#'
+#'
+#' @name expsmooth-package
+#' @aliases expsmooth-package expsmooth
+#' @docType package
+#' @author Rob J Hyndman. \email{Rob.Hyndman@@buseco.monash.edu.au}
+#' @references Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D.,
+#' (2008) \emph{Forecasting with exponential smoothing: the state space
+#' approach}, Springer. \url{www.exponentialsmoothing.net}.
+#' @keywords package
+NULL
 
 #' Quarterly Australian GDP
 #'
@@ -17,10 +31,7 @@
 #'
 #' plot(ausgdp,main="Australian GDP per capita",ylab="dollars",xlab="Year")
 #'
-NULL
-
-
-
+"ausgdp"
 
 
 #' Monthly US government bond yields
@@ -41,11 +52,7 @@ NULL
 #'
 #' plot(bonds,main="US 10-year bonds yield",ylab="Percentage per annum",xlab="Year")
 #'
-NULL
-
-
-
-
+"bonds"
 
 #' Monthly Canadian gas production
 #'
@@ -65,11 +72,7 @@ NULL
 #'
 #' plot(cangas,main="Monthly Canadian gas production",ylab="billion cubic metres",xlab="Year")
 #'
-NULL
-
-
-
-
+"cangas"
 
 #' Monthly sales car parts
 #'
@@ -88,11 +91,7 @@ NULL
 #'
 #' plot(carparts[,2001:2010],main="Monthly car part sales",xlab="Year")
 #'
-NULL
-
-
-
-
+"carparts"
 
 #' Monthly copper prices
 #'
@@ -113,10 +112,7 @@ NULL
 #'
 #' plot(mcopper,main="Monthly copper price",ylab="pounds per ton",xlab="Year")
 #'
-NULL
-
-
-
+"mcopper"
 
 
 #' Monthly Dow Jones Index: closing
@@ -137,11 +133,7 @@ NULL
 #'
 #' plot(djiclose,main="Dow Jones Index",xlab="Year")
 #'
-NULL
-
-
-
-
+"djiclose"
 
 #' Monthly Dow Jones Index
 #'
@@ -161,11 +153,7 @@ NULL
 #' plot(dji,plot.type="single",main="Dow Jones Index",xlab="Year",ylab="",col=1:4)
 #' legend("bottomright",legend=colnames(dji),col=1:4,lty=1)
 #'
-NULL
-
-
-
-
+"dji"
 
 #' Monthly US domestic enplanements
 #'
@@ -186,31 +174,7 @@ NULL
 #'
 #' plot(enplanements,main="US domestic enplanements",ylab="millions",xlab="Year")
 #'
-NULL
-
-
-
-
-
-#' Data sets for "Forecasting with exponential smoothing"
-#'
-#' Data sets from the book "Forecasting with exponential smoothing: the state
-#' space approach" by Hyndman, Koehler, Ord and Snyder (Springer, 2008).
-#'
-#'
-#' @name expsmooth-package
-#' @aliases expsmooth-package expsmooth
-#' @docType package
-#' @author Rob J Hyndman. \email{Rob.Hyndman@@buseco.monash.edu.au}
-#' @references Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D.,
-#' (2008) \emph{Forecasting with exponential smoothing: the state space
-#' approach}, Springer. \url{www.exponentialsmoothing.net}.
-#' @keywords package
-NULL
-
-
-
-
+"enplanements"
 
 #' Weekly FM sales
 #'
@@ -229,11 +193,7 @@ NULL
 #'
 #' plot(fmsales,ylab="FM sales (thousands)",xlab="Week")
 #'
-NULL
-
-
-
-
+"fmsales"
 
 #' Annual US new freight cars
 #'
@@ -252,10 +212,7 @@ NULL
 #'
 #' plot(freight,main="New freight cars shipped in USA",xlab="Year",ylab="")
 #'
-NULL
-
-
-
+"freight"
 
 
 #' Quarterly French exports
@@ -276,11 +233,7 @@ NULL
 #'
 #' plot(frexport,ylab="thousands of francs",main="Quarterly exports",xlab="Year")
 #'
-NULL
-
-
-
-
+"frexport"
 
 #' US gasoline prices
 #'
@@ -311,11 +264,7 @@ NULL
 #' legend("topleft", col=c("black","blue"), lty=1,
 #'   legend=c("Ave retail price of gasoline", "Spot price of WTI oil"))
 #'
-NULL
-
-
-
-
+"gasprice"
 
 #' Monthly patient count
 #'
@@ -335,11 +284,7 @@ NULL
 #'
 #' plot(hospital[,1:10],main="Monthly patient count",xlab="Year")
 #'
-NULL
-
-
-
-
+"hospital"
 
 #' Weekly jewelry sales
 #'
@@ -359,11 +304,7 @@ NULL
 #'
 #' plot(jewelry[,1:10],main="Weekly sales of costume jewelry items",xlab="Year")
 #'
-NULL
-
-
-
-
+"jewelry"
 
 #' Monthly sales of an automobile part
 #'
@@ -382,11 +323,7 @@ NULL
 #'
 #' plot(partx,main="Monthly sales of an automobile part",ylab="Sales",xlab="Year")
 #'
-NULL
-
-
-
-
+"partx"
 
 #' Monthly product sales
 #'
@@ -408,11 +345,7 @@ NULL
 #' points(msales,pch=(msales[,"stockouts"]==1)+1)
 #' legend("bottomright",pch=1:2,legend=c("Excess stock","Stock shortage"))
 #'
-NULL
-
-
-
-
+"msales"
 
 #' Quarterly UK passenger car production
 #'
@@ -431,11 +364,7 @@ NULL
 #'
 #' plot(ukcars,main="UK passenger vehicle production",ylab="Thousands of cars",xlab="Year")
 #'
-NULL
-
-
-
-
+"ukcars"
 
 #' Unemployment and the CCI
 #'
@@ -457,10 +386,7 @@ NULL
 #'
 #' plot(unemp.cci[,1:2],main="Unemployment and the CCI",xlab="Year")
 #'
-NULL
-
-
-
+"unemp.cci"
 
 
 #' Annual US net electricity generation
@@ -480,11 +406,7 @@ NULL
 #'
 #' plot(usnetelec,main="Annual US net electricity generation",ylab="billion kwh",xlab="Year")
 #'
-NULL
-
-
-
-
+"usnetelec"
 
 #' Quarterly US GDP
 #'
@@ -503,11 +425,7 @@ NULL
 #'
 #' plot(usgdp,main="Quarterly US GDP",xlab="Year",ylab="US Dollars")
 #'
-NULL
-
-
-
-
+"usgdp"
 
 #' Hourly utility demand
 #'
@@ -526,11 +444,7 @@ NULL
 #'
 #' plot(utility,main="Hourly utility demand",ylab="MW",xlab="Day")
 #'
-NULL
-
-
-
-
+"utility"
 
 #' Hourly vehicle counts
 #'
@@ -550,11 +464,7 @@ NULL
 #'
 #' plot(vehicles,main="Hourly vehicle count",xlab="Day",ylab="Number of vehicles")
 #'
-NULL
-
-
-
-
+"vehicles"
 
 #' Monthly Australian overseas vistors
 #'
@@ -573,11 +483,7 @@ NULL
 #'
 #' plot(visitors,main="Overseas visitors to Australia",ylab="Thousands of people",xlab="Year")
 #'
-NULL
-
-
-
-
+"visitors"
 
 #' Monthly exchange rates
 #'
@@ -597,9 +503,7 @@ NULL
 #'
 #' plot(xrates,main="Foreign exchange rates",xlab="Year")
 #'
-NULL
-
-
+"xrates"
 
 #' @import forecast
 NULL

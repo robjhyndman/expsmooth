@@ -10,6 +10,9 @@ Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
 Springer.
 }
+\usage{
+gasprice
+}
 \description{
 Monthly US retail gasoline price (the average price per gallon, in dollars)
 and the spot price of a barrel of West Texas Intermediate (WTI) oil in

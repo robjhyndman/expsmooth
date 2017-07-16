@@ -10,6 +10,9 @@ Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
 Springer
 }
+\usage{
+mcopper
+}
 \description{
 Monthly copper prices. Copper, grade A, electrolytic wire
 bars/cathodes,LME,cash (pounds/ton) Source: UNCTAD
