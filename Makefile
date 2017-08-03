@@ -5,6 +5,8 @@
 
 PKG_NAME=$(shell grep -i ^package DESCRIPTION | cut -d : -d \  -f 2)
 
+all: build pkgdown install
+
 check: 
 	rcheck
 
@@ -23,6 +25,6 @@ winbuild:
 
 clean:
 	-rm -f ../$(PKG_NAME)_*.tar.gz
-	-rm -r -f man/*
+	-rm -r -f man/*.Rd
 	-rm -r -f NAMESPACE
 
