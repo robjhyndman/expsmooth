@@ -7,7 +7,7 @@ vers <- paste("R package version", packageVersion("expsmooth"))
 citHeader("To cite the expsmooth package in publications, please use:")
 
 bibentry(bibtype = "Manual",
-  title = 'Data sets from "Exponential smoothing: a state space approach" by Hyndman, Koehler, Ord and Snyder (Springer, 2008)',
+  title = 'expsmooth: Data sets from "Exponential smoothing: a state space approach" by Hyndman, Koehler, Ord and Snyder (Springer, 2008)',
   author = "Rob J Hyndman",
   year = year,
   note = vers,
