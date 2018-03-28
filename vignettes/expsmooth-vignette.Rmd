@@ -1,0 +1,31 @@
+---
+title: "Using EXPSMOOTH: Worked Examples and Explanations"
+author: "Justin Carmody, Rob J Hyndman"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using EXPSMOOTH: Worked Examples and Explanations}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+library(tidyverse)
+library(forecast)
+library(expsmooth)
+```
+
+# Introduction
+This package contains a collection of datasets and functions that are designed to accompany the textbook "Forecasting with Exponential Smoothing: The State Space Approach" by Rob Hyndman, Anne B. Koehler, J. Keith Ord, Ralph D. Snyder (Wiley, 3rd ed., 1998). The book can be purchased [here](https://www.amazon.com/Forecasting-Exponential-Smoothing-Approach-Statistics/dp/3540719164).
+
+```{r, out.width = "400px", fig.align='center'}
+knitr::include_graphics("expsmooth-cover.png")
+```
+
+This vignette will replicate **Section 2.8** from the textbook. The data sets that are used have been updated since the book was published so the values and models that are calculated and chosen in the vignette may be different from those in the textbook. A note will be made anywhere that this is the case.
+
+# Data Sets
