@@ -17,15 +17,20 @@ knitr::opts_chunk$set(
 library(tidyverse)
 library(forecast)
 library(expsmooth)
+
+data("bonds")
+data("usnetelec")
+data("ukcars")
+data("visitors")
 ```
 
 # Introduction
 This package contains a collection of datasets and functions that are designed to accompany the textbook "Forecasting with Exponential Smoothing: The State Space Approach" by Rob Hyndman, Anne B. Koehler, J. Keith Ord, Ralph D. Snyder (Wiley, 3rd ed., 1998). The book can be purchased [here](https://www.amazon.com/Forecasting-Exponential-Smoothing-Approach-Statistics/dp/3540719164).
 
-```{r, out.width = "400px", fig.align='center'}
+```{r, echo=FALSE, out.width = "400px", fig.align='center'}
 knitr::include_graphics("expsmooth-cover.png")
 ```
 
-This vignette will replicate **Section 2.8** from the textbook. The data sets that are used have been updated since the book was published so the values and models that are calculated and chosen in the vignette may be different from those in the textbook. A note will be made anywhere that this is the case.
+This vignette will replicate **Section 2.8** from the textbook, and provide worked solutions to some of the exercises in **Section 2.9**. The data sets that are used have been updated since the book was published so the values and models that are calculated and chosen in the vignette may be different from those in the textbook. A note will be made anywhere that this is the case.
 
 # Data Sets
