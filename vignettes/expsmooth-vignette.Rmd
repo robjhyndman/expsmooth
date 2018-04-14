@@ -1,5 +1,5 @@
 ---
-title: "Using EXPSMOOTH: Worked Examples and Explanations"
+title: "Using expsmooth: worked examples"
 author: "Justin Carmody, Rob J Hyndman"
 date: "`r Sys.Date()`"
 output:
