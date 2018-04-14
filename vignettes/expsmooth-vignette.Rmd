@@ -31,7 +31,7 @@ When the `expsmooth` package is loaded, the `forecast` package is also loaded, p
 
 This vignette will replicate **Section 2.8** from the book, and provide worked solutions to some of the exercises in **Section 2.9**. The forecast package has been updated since the book was published, and some of the resulting model estimates may be different from those in the book. Figure numbers are taken from the book.
 
-# Data Sets
+# Data sets
 
 A graph of a time series often exhibits patterns, such as an upward or downward movement (trend) or a pattern that repeats (seasonal variation), that might be used to forecast future values. Chapters 1 and 2 reference four data sets that are included in the `expsmooth` package.
 
@@ -73,7 +73,7 @@ plot_visitors <- autoplot(visitors) +
 gridExtra::grid.arrange(plot_bonds, plot_usnetelec, plot_ukcars, plot_visitors, nrow=2)
 ```
 
-# Model Selection Exercise
+# Model selection exercise
 
 This part of the vignette will follow the methodology described in **Section 2.8** of the book, and reproduce the results that are reported there. This also provides answers to **Exercise 2.3** and **Exercise 2.4**.
 
