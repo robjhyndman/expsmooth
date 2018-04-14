@@ -6,8 +6,9 @@ Version: 2.4
 Depends: R (>= 2.0.0), forecast
 LazyData: yes
 LazyLoad: yes
-Authors@R:
-  person("Rob", "Hyndman", email="Rob.Hyndman@monash.edu", role=c("aut", "cre", "cph"))
+Authors@R: c(
+  person("Rob", "Hyndman", email="Rob.Hyndman@monash.edu", role=c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-2140-5352")),
+  person("Justin", "Carmody", role="ctb"))
 License: GPL-3
 URL: http://pkg.robjhyndman.com/expsmooth/, https://github.com/robjhyndman/expsmooth
 BugReports: https://github.com/robjhyndman/expsmooth/issues
