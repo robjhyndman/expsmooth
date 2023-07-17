@@ -4,3 +4,4 @@
 ^docs$
 Makefile
 ^pkgdown$
+^\.github$

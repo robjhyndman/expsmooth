@@ -1,70 +1,71 @@
+url: http://pkg.robjhyndman.com/expsmooth/
 template:
   bootstrap: 5
   theme: tango
   bootswatch: flatly
   bslib:
-    base_font: {google: "Fira Sans"}
-    heading_font: {google: "Fira Sans"}
-    code_font: "Hack, mono"
-    primary: "#234460"
-    link-color: "#234460"
+    base_font:
+      google: Fira Sans
+    heading_font:
+      google: Fira Sans
+    code_font: Hack, mono
+    primary: '#234460'
+    link-color: '#234460'
   includes:
     in_header: <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack-subset.css">
-
 authors:
   Rob Hyndman:
     href: http://robjhyndman.com
-
 navbar:
   type: default
   left:
-    - text: "Reference"
-      href: reference/index.html
-    - text: "Vignette"
-      href: articles/expsmooth-vignette.html
-    - text: "Change Log"
-      href: news/index.html
+  - text: Reference
+    href: reference/index.html
+  - text: Vignette
+    href: articles/expsmooth-vignette.html
+  - text: Change Log
+    href: news/index.html
   right:
-    - icon: fa-github fa-lg
-      href: https://github.com/robjhyndman/expsmooth
-
+  - icon: fa-github fa-lg
+    href: https://github.com/robjhyndman/expsmooth
 reference:
-  - title: "Annual Data"
-    desc: "Data recorded every year"
-    contents:
-      - freight
-      - usnetelec
-  - title: "Quarterly Data"
-    desc: "Data recorded every quarter"
-    contents:
-      - ausgdp
-      - frexport
-      - ukcars
-      - usgdp
-  - title: "Monthly Data"
-    desc: "Data recorded every month"
-    contents:
-      - bonds
-      - cangas
-      - carparts
-      - djiclose
-      - dji
-      - enplanements
-      - hospital
-      - mcopper
-      - msales
-      - partx
-      - gasprice
-      - unemp.cci
-      - visitors
-      - xrates
-  - title: "Weekly Data"
-    desc: "Data recorded every week"
-    contents:
-      - fmsales
-      - jewelry
-  - title: "Hourly Data"
-    desc: "Data recorded every hour"
-    contents:
-      - utility
-      - vehicles
+- title: Annual Data
+  desc: Data recorded every year
+  contents:
+  - freight
+  - usnetelec
+- title: Quarterly Data
+  desc: Data recorded every quarter
+  contents:
+  - ausgdp
+  - frexport
+  - ukcars
+  - usgdp
+- title: Monthly Data
+  desc: Data recorded every month
+  contents:
+  - bonds
+  - cangas
+  - carparts
+  - djiclose
+  - dji
+  - enplanements
+  - hospital
+  - mcopper
+  - msales
+  - partx
+  - gasprice
+  - unemp.cci
+  - visitors
+  - xrates
+- title: Weekly Data
+  desc: Data recorded every week
+  contents:
+  - fmsales
+  - jewelry
+- title: Hourly Data
+  desc: Data recorded every hour
+  contents:
+  - utility
+  - vehicles
+
