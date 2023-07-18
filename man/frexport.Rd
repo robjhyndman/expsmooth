@@ -4,7 +4,9 @@
 \name{frexport}
 \alias{frexport}
 \title{Quarterly French exports}
-\format{time series}
+\format{
+time series
+}
 \source{
 Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
