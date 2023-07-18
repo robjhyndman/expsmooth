@@ -3,7 +3,7 @@ pkgdown: 2.0.7
 pkgdown_sha: ~
 articles:
   expsmooth-vignette: expsmooth-vignette.html
-last_built: 2023-07-18T01:12Z
+last_built: 2023-07-18T01:36Z
 urls:
   reference: http://pkg.robjhyndman.com/expsmooth/reference
   article: http://pkg.robjhyndman.com/expsmooth/articles
