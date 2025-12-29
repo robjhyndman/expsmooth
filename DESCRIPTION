@@ -2,7 +2,7 @@ Package: expsmooth
 Title: Data Sets from "Forecasting with Exponential Smoothing"
 Description:
   Data sets from the book "Forecasting with exponential smoothing: the state space approach" by Hyndman, Koehler, Ord and Snyder (Springer, 2008).
-Version: 2.4
+Version: 2.3.0.9000
 Authors@R: c(
   person("Rob", "Hyndman", email="Rob.Hyndman@monash.edu", role=c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-2140-5352")),
   person("Justin", "Carmody", role="ctb"))
