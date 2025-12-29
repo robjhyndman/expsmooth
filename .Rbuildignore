@@ -5,3 +5,5 @@
 Makefile
 ^pkgdown$
 ^\.github$
+^doc$
+^Meta$
