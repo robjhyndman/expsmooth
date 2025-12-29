@@ -1,4 +1,4 @@
-url: http://pkg.robjhyndman.com/expsmooth/
+url: https://pkg.robjhyndman.com/expsmooth/
 template:
   bootstrap: 5
   theme: tango
@@ -71,4 +71,3 @@ reference:
   contents:
   - utility
   - vehicles
-

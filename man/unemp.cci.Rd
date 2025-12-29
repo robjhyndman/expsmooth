@@ -23,10 +23,10 @@ indicator variable taking value 1 from September 2001.
 }
 \examples{
 
-plot(unemp.cci[,1:2],main="Unemployment and the CCI",xlab="Year")
+plot(unemp.cci[, 1:2], main = "Unemployment and the CCI", xlab = "Year")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

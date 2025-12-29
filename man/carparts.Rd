@@ -20,10 +20,10 @@ Monthly sales car parts.  2674 series. Jan 1998 - Mar 2002.
 }
 \examples{
 
-plot(carparts[,2001:2010],main="Monthly car part sales",xlab="Year")
+plot(carparts[, 2001:2010], main = "Monthly car part sales", xlab = "Year")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

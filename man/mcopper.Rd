@@ -18,14 +18,14 @@ mcopper
 \description{
 Monthly copper prices. Copper, grade A, electrolytic wire
 bars/cathodes,LME,cash (pounds/ton) Source: UNCTAD
-(\url{http://stats.unctad.org/Handbook}).
+(\url{https://unctadstat.unctad.org/EN/}).
 }
 \examples{
 
-plot(mcopper,main="Monthly copper price",ylab="pounds per ton",xlab="Year")
+plot(mcopper, main = "Monthly copper price", ylab = "pounds per ton", xlab = "Year")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

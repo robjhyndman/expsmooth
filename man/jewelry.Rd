@@ -21,10 +21,10 @@ week 24, 2000.
 }
 \examples{
 
-plot(jewelry[,1:10],main="Weekly sales of costume jewelry items",xlab="Year")
+plot(jewelry[, 1:10], main = "Weekly sales of costume jewelry items", xlab = "Year")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

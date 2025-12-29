@@ -20,10 +20,10 @@ Quarterly US GDP. 1947:1 - 2006.1.
 }
 \examples{
 
-plot(usgdp,main="Quarterly US GDP",xlab="Year",ylab="US Dollars")
+plot(usgdp, main = "Quarterly US GDP", xlab = "Year", ylab = "US Dollars")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

@@ -12,9 +12,18 @@ space approach" by Hyndman, Koehler, Ord and Snyder (Springer, 2008).
 \references{
 Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D.,
 (2008) \emph{Forecasting with exponential smoothing: the state space
-approach}, Springer. \url{www.exponentialsmoothing.net}.
+approach}, Springer. \url{https://robjhyndman.com/expsmooth/}.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://pkg.robjhyndman.com/expsmooth/}
+  \item \url{https://github.com/robjhyndman/expsmooth}
+  \item Report bugs at \url{https://github.com/robjhyndman/expsmooth/issues}
+}
+
 }
 \author{
 Rob J Hyndman. \email{Rob.Hyndman@buseco.monash.edu.au}
 }
-\keyword{package}
+\keyword{internal}

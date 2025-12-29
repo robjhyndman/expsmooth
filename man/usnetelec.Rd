@@ -20,10 +20,10 @@ Annual US net electricity generation (billion kwh) for 1949-2003
 }
 \examples{
 
-plot(usnetelec,main="Annual US net electricity generation",ylab="billion kwh",xlab="Year")
+plot(usnetelec, main = "Annual US net electricity generation", ylab = "billion kwh", xlab = "Year")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

@@ -21,10 +21,10 @@ February 2005
 }
 \examples{
 
-plot(cangas,main="Monthly Canadian gas production",ylab="billion cubic metres",xlab="Year")
+plot(cangas, main = "Monthly Canadian gas production", ylab = "billion cubic metres", xlab = "Year")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

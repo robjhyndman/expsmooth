@@ -20,10 +20,10 @@ Hourly utility demand, mid western USA from 1 Jan 2003
 }
 \examples{
 
-plot(utility,main="Hourly utility demand",ylab="MW",xlab="Day")
+plot(utility, main = "Hourly utility demand", ylab = "MW", xlab = "Day")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

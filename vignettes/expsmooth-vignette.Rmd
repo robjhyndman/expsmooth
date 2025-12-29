@@ -51,26 +51,26 @@ These time series are shown in **Figure 1.1** which is reproduced below:
 
 ```{r fig.width=7.15, fig.height=5}
 plot_bonds <- autoplot(bonds) +
-  ggtitle('(a) US 10-year Bonds Yield') +
-  xlab('Year') +
-  ylab('Percentage per Annum')
+  ggtitle("(a) US 10-year Bonds Yield") +
+  xlab("Year") +
+  ylab("Percentage per Annum")
 
 plot_usnetelec <- autoplot(usnetelec) +
-  ggtitle('(b) US Net Electricity Generation') +
-  xlab('Year') +
-  ylab('Billion kWh')
+  ggtitle("(b) US Net Electricity Generation") +
+  xlab("Year") +
+  ylab("Billion kWh")
 
 plot_ukcars <- autoplot(ukcars) +
-  ggtitle('(c) UK Passenger Vehicle Production') +
-  xlab('Year') +
-  ylab('Thousands of Cars')
+  ggtitle("(c) UK Passenger Vehicle Production") +
+  xlab("Year") +
+  ylab("Thousands of Cars")
 
 plot_visitors <- autoplot(visitors) +
-  ggtitle('(d) Overseas Visitors to Australia') +
-  xlab('Year') +
-  ylab('Thousands of People')
+  ggtitle("(d) Overseas Visitors to Australia") +
+  xlab("Year") +
+  ylab("Thousands of People")
 
-gridExtra::grid.arrange(plot_bonds, plot_usnetelec, plot_ukcars, plot_visitors, nrow=2)
+gridExtra::grid.arrange(plot_bonds, plot_usnetelec, plot_ukcars, plot_visitors, nrow = 2)
 ```
 
 # Model selection exercise
@@ -99,7 +99,7 @@ autoplot(fit_bonds)
 The `forecast()` function is used to produce point forecasts and prediction intervals. When the `summary()` function is called on the forecast object, it prints the model information along with the point forecasts and prediction intervals.
 
 ```{r}
-forecast_bonds <- forecast(fit_bonds, level=80)
+forecast_bonds <- forecast(fit_bonds, level = 80)
 summary(forecast_bonds)
 ```
 
@@ -107,47 +107,47 @@ The `autoplot()` function can then be called on the forecast object to produce t
 
 ```{r fig.width=7.15, fig.height=5}
 autoplot(forecast_bonds) +
-  xlab('Year') +
-  ylab('Percentage per annum') +
+  xlab("Year") +
+  ylab("Percentage per annum") +
   ggtitle("US 10-year bond yields") +
-  labs(caption="Fig. 2.1a")
+  labs(caption = "Fig. 2.1a")
 ```
 
 ### usnetelec
 
 ```{r}
 fit_usnetelec <- ets(usnetelec)
-forecast_usnetelec <- forecast(fit_usnetelec, level=80)
+forecast_usnetelec <- forecast(fit_usnetelec, level = 80)
 summary(forecast_usnetelec)
 autoplot(forecast_usnetelec) +
-  xlab('Year') +
-  ylab('Billion kwh') +
+  xlab("Year") +
+  ylab("Billion kwh") +
   ggtitle("US net electricity generation") +
-  labs(caption="Fig. 2.1b")
+  labs(caption = "Fig. 2.1b")
 ```
 
 ### ukcars
 
 ```{r}
 fit_ukcars <- ets(ukcars)
-forecast_ukcars <- forecast(fit_ukcars, level=80)
+forecast_ukcars <- forecast(fit_ukcars, level = 80)
 summary(forecast_ukcars)
 autoplot(forecast_ukcars) +
-  xlab('Year') +
-  ylab('Thousands of cars') +
+  xlab("Year") +
+  ylab("Thousands of cars") +
   ggtitle("UK passenger motor vehicle production") +
-  labs(caption="Fig. 2.1c")
+  labs(caption = "Fig. 2.1c")
 ```
 
 ### visitors
 
 ```{r}
 fit_visitors <- ets(visitors)
-forecast_visitors <- forecast(fit_visitors, level=80)
+forecast_visitors <- forecast(fit_visitors, level = 80)
 summary(forecast_visitors)
 autoplot(forecast_visitors) +
-  xlab('Year') +
-  ylab('Thousands of people') +
+  xlab("Year") +
+  ylab("Thousands of people") +
   ggtitle("Overseas visitors to Australia") +
-  labs(caption="Fig. 2.1d")
+  labs(caption = "Fig. 2.1d")
 ```

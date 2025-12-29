@@ -21,10 +21,10 @@ Australia, beginning August 1995.
 }
 \examples{
 
-plot(vehicles,main="Hourly vehicle count",xlab="Day",ylab="Number of vehicles")
+plot(vehicles, main = "Hourly vehicle count", xlab = "Day", ylab = "Number of vehicles")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

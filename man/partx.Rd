@@ -20,10 +20,10 @@ Monthly sales of an automobile part.
 }
 \examples{
 
-plot(partx,main="Monthly sales of an automobile part",ylab="Sales",xlab="Year")
+plot(partx, main = "Monthly sales of an automobile part", ylab = "Sales", xlab = "Year")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

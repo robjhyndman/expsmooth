@@ -20,11 +20,11 @@ Monthly Dow Jones Index: Open, High, Low, Close. Jan 1990 - Mar 2007
 }
 \examples{
 
-plot(dji,plot.type="single",main="Dow Jones Index",xlab="Year",ylab="",col=1:4)
-legend("bottomright",legend=colnames(dji),col=1:4,lty=1)
+plot(dji, plot.type = "single", main = "Dow Jones Index", xlab = "Year", ylab = "", col = 1:4)
+legend("bottomright", legend = colnames(dji), col = 1:4, lty = 1)
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

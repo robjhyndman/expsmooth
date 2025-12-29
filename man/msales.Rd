@@ -21,12 +21,12 @@ column) and stockout indicator (second column).
 }
 \examples{
 
-plot(msales[,1],main="Monthly sales of a product",ylab="Sales",xlab="Year")
-points(msales,pch=(msales[,"stockouts"]==1)+1)
-legend("bottomright",pch=1:2,legend=c("Excess stock","Stock shortage"))
+plot(msales[, 1], main = "Monthly sales of a product", ylab = "Sales", xlab = "Year")
+points(msales, pch = (msales[, "stockouts"] == 1) + 1)
+legend("bottomright", pch = 1:2, legend = c("Excess stock", "Stock shortage"))
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

@@ -14,7 +14,7 @@ bibentry(bibtype = "Manual",
   author = "Rob J Hyndman",
   year = year,
   note = vers,
-  url = "http://pkg.robjhyndman.com/expsmooth")
+  url = "https://pkg.robjhyndman.com/expsmooth/")
 
 bibentry(bibtype = "Book",
   title="Exponential smoothing: a state space approach",

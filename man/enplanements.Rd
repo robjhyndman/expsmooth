@@ -22,10 +22,10 @@ Statistic Monthly.
 }
 \examples{
 
-plot(enplanements,main="US domestic enplanements",ylab="millions",xlab="Year")
+plot(enplanements, main = "US domestic enplanements", ylab = "millions", xlab = "Year")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

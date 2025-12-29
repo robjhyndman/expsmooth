@@ -20,10 +20,10 @@ Quarterly UK passenger car production (thousands of cars). 1977:1-2005:1
 }
 \examples{
 
-plot(ukcars,main="UK passenger vehicle production",ylab="Thousands of cars",xlab="Year")
+plot(ukcars, main = "UK passenger vehicle production", ylab = "Thousands of cars", xlab = "Year")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

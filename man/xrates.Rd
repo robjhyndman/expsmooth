@@ -21,10 +21,10 @@ dollar. \code{audusd} contains USD/AUD and \code{audukp} contains UKP/AUD.
 }
 \examples{
 
-plot(xrates,main="Foreign exchange rates",xlab="Year")
+plot(xrates, main = "Foreign exchange rates", xlab = "Year")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

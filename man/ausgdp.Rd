@@ -20,10 +20,10 @@ Quarterly Australian GDP per capita, 1971:1 - 1998:1
 }
 \examples{
 
-plot(ausgdp,main="Australian GDP per capita",ylab="dollars",xlab="Year")
+plot(ausgdp, main = "Australian GDP per capita", ylab = "dollars", xlab = "Year")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

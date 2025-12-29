@@ -20,10 +20,10 @@ Sales of a product for 62 weeks starting in early 2003.
 }
 \examples{
 
-plot(fmsales,ylab="FM sales (thousands)",xlab="Week")
+plot(fmsales, ylab = "FM sales (thousands)", xlab = "Week")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

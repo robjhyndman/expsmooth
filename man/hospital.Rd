@@ -21,10 +21,10 @@ There are 767 time series that had a mean count of at least 10 and no zeros.
 }
 \examples{
 
-plot(hospital[,1:10],main="Monthly patient count",xlab="Year")
+plot(hospital[, 1:10], main = "Monthly patient count", xlab = "Year")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

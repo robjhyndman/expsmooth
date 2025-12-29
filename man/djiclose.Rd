@@ -21,10 +21,10 @@ October 1928 - Dec 2007.  Two columns: \code{close} and \code{pcreturn}.
 }
 \examples{
 
-plot(djiclose,main="Dow Jones Index",xlab="Year")
+plot(djiclose, main = "Dow Jones Index", xlab = "Year")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

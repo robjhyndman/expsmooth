@@ -21,10 +21,10 @@ Makridakis et al. (1998, p.162).
 }
 \examples{
 
-plot(frexport,ylab="thousands of francs",main="Quarterly exports",xlab="Year")
+plot(frexport, ylab = "thousands of francs", main = "Quarterly exports", xlab = "Year")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

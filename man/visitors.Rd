@@ -20,10 +20,10 @@ Monthly Australian short-term overseas vistors. May 1985-April 2005
 }
 \examples{
 
-plot(visitors,main="Overseas visitors to Australia",ylab="Thousands of people",xlab="Year")
+plot(visitors, main = "Overseas visitors to Australia", ylab = "Thousands of people", xlab = "Year")
 
 }
 \references{
-\url{http://www.exponentialsmoothing.net}
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}
