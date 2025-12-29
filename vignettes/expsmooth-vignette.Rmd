@@ -1,7 +1,7 @@
 ---
 title: "Using expsmooth: worked examples"
 author: "Justin Carmody, Rob J Hyndman"
-date: "`r Sys.Date()`"
+date: "14 April 2018"
 output:
   rmarkdown::html_vignette:
     fig_width: 7.15

@@ -24,6 +24,6 @@ Useful links:
 
 }
 \author{
-Rob J Hyndman. \email{Rob.Hyndman@buseco.monash.edu.au}
+Rob J Hyndman.
 }
 \keyword{internal}
