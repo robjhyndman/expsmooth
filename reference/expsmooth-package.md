@@ -22,4 +22,4 @@ Useful links:
 
 ## Author
 
-Rob J Hyndman. <Rob.Hyndman@buseco.monash.edu.au>
+Rob J Hyndman.
