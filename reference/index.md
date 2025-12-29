@@ -1,0 +1,80 @@
+# Package index
+
+## Package
+
+- [`expsmooth-package`](https://pkg.robjhyndman.com/expsmooth/reference/expsmooth-package.md)
+  [`expsmooth`](https://pkg.robjhyndman.com/expsmooth/reference/expsmooth-package.md)
+  : Data sets for "Forecasting with exponential smoothing"
+
+## Annual Data
+
+Data recorded every year
+
+- [`freight`](https://pkg.robjhyndman.com/expsmooth/reference/freight.md)
+  : Annual US new freight cars
+- [`usnetelec`](https://pkg.robjhyndman.com/expsmooth/reference/usnetelec.md)
+  : Annual US net electricity generation
+
+## Quarterly Data
+
+Data recorded every quarter
+
+- [`ausgdp`](https://pkg.robjhyndman.com/expsmooth/reference/ausgdp.md)
+  : Quarterly Australian GDP
+- [`frexport`](https://pkg.robjhyndman.com/expsmooth/reference/frexport.md)
+  : Quarterly French exports
+- [`ukcars`](https://pkg.robjhyndman.com/expsmooth/reference/ukcars.md)
+  : Quarterly UK passenger car production
+- [`usgdp`](https://pkg.robjhyndman.com/expsmooth/reference/usgdp.md) :
+  Quarterly US GDP
+
+## Monthly Data
+
+Data recorded every month
+
+- [`bonds`](https://pkg.robjhyndman.com/expsmooth/reference/bonds.md) :
+  Monthly US government bond yields
+- [`cangas`](https://pkg.robjhyndman.com/expsmooth/reference/cangas.md)
+  : Monthly Canadian gas production
+- [`carparts`](https://pkg.robjhyndman.com/expsmooth/reference/carparts.md)
+  : Monthly sales car parts
+- [`djiclose`](https://pkg.robjhyndman.com/expsmooth/reference/djiclose.md)
+  : Monthly Dow Jones Index: closing
+- [`dji`](https://pkg.robjhyndman.com/expsmooth/reference/dji.md) :
+  Monthly Dow Jones Index
+- [`enplanements`](https://pkg.robjhyndman.com/expsmooth/reference/enplanements.md)
+  : Monthly US domestic enplanements
+- [`hospital`](https://pkg.robjhyndman.com/expsmooth/reference/hospital.md)
+  : Monthly patient count
+- [`mcopper`](https://pkg.robjhyndman.com/expsmooth/reference/mcopper.md)
+  : Monthly copper prices
+- [`msales`](https://pkg.robjhyndman.com/expsmooth/reference/msales.md)
+  : Monthly product sales
+- [`partx`](https://pkg.robjhyndman.com/expsmooth/reference/partx.md) :
+  Monthly sales of an automobile part
+- [`gasprice`](https://pkg.robjhyndman.com/expsmooth/reference/gasprice.md)
+  : US gasoline prices
+- [`unemp.cci`](https://pkg.robjhyndman.com/expsmooth/reference/unemp.cci.md)
+  : Unemployment and the CCI
+- [`visitors`](https://pkg.robjhyndman.com/expsmooth/reference/visitors.md)
+  : Monthly Australian overseas vistors
+- [`xrates`](https://pkg.robjhyndman.com/expsmooth/reference/xrates.md)
+  : Monthly exchange rates
+
+## Weekly Data
+
+Data recorded every week
+
+- [`fmsales`](https://pkg.robjhyndman.com/expsmooth/reference/fmsales.md)
+  : Weekly FM sales
+- [`jewelry`](https://pkg.robjhyndman.com/expsmooth/reference/jewelry.md)
+  : Weekly jewelry sales
+
+## Hourly Data
+
+Data recorded every hour
+
+- [`utility`](https://pkg.robjhyndman.com/expsmooth/reference/utility.md)
+  : Hourly utility demand
+- [`vehicles`](https://pkg.robjhyndman.com/expsmooth/reference/vehicles.md)
+  : Hourly vehicle counts

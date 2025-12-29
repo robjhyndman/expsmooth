@@ -1,99 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/404.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/articles/expsmooth-vignette.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/authors.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/index.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/news/index.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/ausgdp.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/bonds.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/cangas.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/carparts.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/dji.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/djiclose.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/enplanements.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/expsmooth-package.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/fmsales.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/freight.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/frexport.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/gasprice.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/hospital.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/jewelry.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/mcopper.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/msales.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/partx.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/ukcars.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/unemp.cci.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/usgdp.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/usnetelec.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/utility.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/vehicles.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/visitors.html</loc>
-  </url>
-  <url>
-    <loc>http://pkg.robjhyndman.com/expsmooth/reference/xrates.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/404.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/articles/expsmooth-vignette.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/articles/index.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/authors.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/index.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/news/index.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/ausgdp.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/bonds.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/cangas.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/carparts.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/dji.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/djiclose.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/enplanements.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/expsmooth-package.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/fmsales.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/freight.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/frexport.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/gasprice.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/hospital.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/index.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/jewelry.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/mcopper.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/msales.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/partx.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/ukcars.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/unemp.cci.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/usgdp.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/usnetelec.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/utility.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/vehicles.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/visitors.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/expsmooth/reference/xrates.html</loc></url>
 </urlset>
+
