@@ -1,4 +1,4 @@
-## expsmooth (development version)
+# expsmooth (development version)
   * Added pkgdown support
   * Updated readme and docs
   * Added vignette (thanks to Justin Carmody)
