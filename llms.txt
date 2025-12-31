@@ -1,4 +1,4 @@
-# expsmooth
+# expsmooth ![](reference/figures/expsmooth-hex.png)
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/expsmooth)](https://cran.r-project.org/package=expsmooth)
 [![Downloads](http://cranlogs.r-pkg.org/badges/expsmooth)](https://cran.r-project.org/package=expsmooth)
