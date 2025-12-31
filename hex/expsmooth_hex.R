@@ -34,11 +34,11 @@ ggplot() +
   geom_from_path(aes(0.5, 0.5, path = img_cropped)) +
   annotate(
     "text",
-    x = -0.38,
-    y = 1.3,
+    x = -0.42,
+    y = 1.35,
     label = "expsmooth",
     family = "firasans",
-    size = 18,
+    size = 20,
     angle = -90,
     colour = "#935b08",
     hjust = 0,
