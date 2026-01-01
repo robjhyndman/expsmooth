@@ -15,8 +15,8 @@ img <- image_read(here::here("man/figures/expsmooth.jpg"))
 # of the final hex. Increase/decrease "150x150" to taste.
 img_padded <- image_border(
   img,
-  color    = "#ffffff", 
-  geometry = "190x190"       # border size in pixels (x- and y-direction)
+  color = "#ffffff",
+  geometry = "190x190" # border size in pixels (x- and y-direction)
 )
 
 # Write padded image to a temporary file (or a real file if you prefer)
@@ -49,4 +49,15 @@ ggplot() +
   theme_void() +
   coord_fixed()
 
-ggsave("./man/figures/expsmooth-hex.png", height = 2.5, width = 2.5)
+ggsave(
+  "./man/figures/expsmooth-hex.png",
+  width = 2.5,
+  height = 2.5,
+  bg = "transparent"
+)
+
+# Trim transparent edges
+img <- image_read("./man/figures/expsmooth-hex.png")
+img_trim <- image_trim(img)
+
+image_write(img_trim, "./man/figures/expsmooth-hex.png")
