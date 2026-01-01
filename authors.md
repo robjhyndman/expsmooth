@@ -12,7 +12,7 @@
 Source:
 [`inst/CITATION`](https://github.com/robjhyndman/expsmooth/blob/master/inst/CITATION)
 
-Hyndman RJ (2025). *expsmooth: Data sets from "Exponential smoothing: a
+Hyndman RJ (2026). *expsmooth: Data sets from "Exponential smoothing: a
 state space approach" by Hyndman, Koehler, Ord and Snyder (Springer,
 2008)*. R package version 2.3.0.9000,
 <https://pkg.robjhyndman.com/expsmooth/>.
@@ -20,7 +20,7 @@ state space approach" by Hyndman, Koehler, Ord and Snyder (Springer,
     @Manual{,
       title = {expsmooth: Data sets from "Exponential smoothing: a state space approach" by Hyndman, Koehler, Ord and Snyder (Springer, 2008)},
       author = {Rob J Hyndman},
-      year = {2025},
+      year = {2026},
       note = {R package version 2.3.0.9000},
       url = {https://pkg.robjhyndman.com/expsmooth/},
     }
