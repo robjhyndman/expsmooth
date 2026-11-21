@@ -20,7 +20,10 @@ Quarterly Australian GDP per capita, 1971:3 - 1998:1.
 }
 \examples{
 
-plot(ausgdp, main = "Australian GDP per capita", ylab = "dollars", xlab = "Year")
+autoplot(ausgdp,
+  main = "Australian GDP per capita",
+  ylab = "dollars", xlab = "Year"
+)
 
 }
 \references{

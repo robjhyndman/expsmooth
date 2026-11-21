@@ -23,7 +23,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(ausgdp, main = "Australian GDP per capita", ylab = "dollars", xlab = "Year")
+#' autoplot(ausgdp,
+#'   main = "Australian GDP per capita",
+#'   ylab = "dollars", xlab = "Year"
+#' )
 #'
 "ausgdp"
 
@@ -39,7 +42,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(bonds, main = "US 10-year bonds yield", ylab = "Percentage per annum", xlab = "Year")
+#' autoplot(bonds,
+#'   main = "US 10-year bonds yield",
+#'   ylab = "Percentage per annum", xlab = "Year"
+#' )
 #'
 "bonds"
 
@@ -54,7 +60,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(cangas, main = "Monthly Canadian gas production", ylab = "billion cubic metres", xlab = "Year")
+#' autoplot(cangas,
+#'   main = "Monthly Canadian gas production",
+#'   ylab = "billion cubic metres", xlab = "Year"
+#' )
 #'
 "cangas"
 
@@ -69,7 +78,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(carparts[, 2001:2010], main = "Monthly car part sales", xlab = "Year")
+#' autoplot(carparts[, 2001:2005], facets = TRUE,
+#'   main = "Monthly car part sales",
+#'   ylab = "Sales", xlab = "Year"
+#' )
 #'
 "carparts"
 
@@ -85,7 +97,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(mcopper, main = "Monthly copper price", ylab = "pounds per ton", xlab = "Year")
+#' autoplot(mcopper,
+#'   main = "Monthly copper price",
+#'   ylab = "pounds per ton", xlab = "Year"
+#' )
 #'
 "mcopper"
 
@@ -105,7 +120,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(djiclose, main = "Dow Jones Index", xlab = "Year")
+#' autoplot(djiclose, facets = TRUE,
+#'   main = "Dow Jones Index",
+#'   ylab = "", xlab = "Year"
+#' )
 #'
 "djiclose"
 
@@ -120,8 +138,7 @@
 #' @template source
 #' @examples
 #'
-#' plot(dji, plot.type = "single", main = "Dow Jones Index", xlab = "Year", ylab = "", col = 1:4)
-#' legend("bottomright", legend = colnames(dji), col = 1:4, lty = 1)
+#' autoplot(dji, main = "Dow Jones Index", ylab = "", xlab = "Year")
 #'
 "dji"
 
@@ -137,7 +154,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(enplanements, main = "US domestic enplanements", ylab = "millions", xlab = "Year")
+#' autoplot(enplanements,
+#'   main = "US domestic enplanements",
+#'   ylab = "millions", xlab = "Year"
+#' )
 #'
 "enplanements"
 
@@ -151,7 +171,7 @@
 #' @template source
 #' @examples
 #'
-#' plot(fmsales, ylab = "FM sales (thousands)", xlab = "Week")
+#' autoplot(fmsales, ylab = "FM sales (thousands)", xlab = "Week")
 #'
 "fmsales"
 
@@ -166,7 +186,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(freight, main = "New freight cars shipped in USA", xlab = "Year", ylab = "")
+#' autoplot(freight,
+#'   main = "New freight cars shipped in USA",
+#'   ylab = "", xlab = "Year"
+#' )
 #'
 "freight"
 
@@ -182,7 +205,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(frexport, ylab = "thousands of francs", main = "Quarterly exports", xlab = "Year")
+#' autoplot(frexport,
+#'   main = "Quarterly exports",
+#'   ylab = "thousands of francs", xlab = "Year"
+#' )
 #'
 "frexport"
 
@@ -204,18 +230,9 @@
 #' @template source
 #' @examples
 #'
-#' par(mar = c(5, 4, 2, 5))
-#' plot(gasprice[, 1],
-#'   xlab = "Year", ylab = "Average retail price per gallon (dollars)",
-#'   main = "Gasoline and oil prices"
-#' )
-#' par(new = TRUE)
-#' plot(gasprice[, 2], col = "blue", xaxt = "n", yaxt = "n", xlab = "", ylab = "")
-#' axis(4)
-#' mtext("Spot price per barrel (dollars)", side = 4, line = 3)
-#' legend("topleft",
-#'   col = c("black", "blue"), lty = 1,
-#'   legend = c("Ave retail price of gasoline", "Spot price of WTI oil")
+#' autoplot(gasprice, facets = TRUE,
+#'   main = "Gasoline and oil prices",
+#'   ylab = "US dollars", xlab = "Year"
 #' )
 #'
 "gasprice"
@@ -232,7 +249,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(hospital[, 1:10], main = "Monthly patient count", xlab = "Year")
+#' autoplot(hospital[, 1:5], facets = TRUE,
+#'   main = "Monthly patient count",
+#'   ylab = "Patients", xlab = "Year"
+#' )
 #'
 "hospital"
 
@@ -248,7 +268,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(jewelry[, 1:10], main = "Weekly sales of costume jewelry items", xlab = "Year")
+#' autoplot(jewelry[, 1:5], facets = TRUE,
+#'   main = "Weekly sales of costume jewelry items",
+#'   ylab = "Sales", xlab = "Year"
+#' )
 #'
 "jewelry"
 
@@ -262,7 +285,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(partx, main = "Monthly sales of an automobile part", ylab = "Sales", xlab = "Year")
+#' autoplot(partx,
+#'   main = "Monthly sales of an automobile part",
+#'   ylab = "Sales", xlab = "Year"
+#' )
 #'
 "partx"
 
@@ -282,9 +308,15 @@
 #' @template source
 #' @examples
 #'
-#' plot(msales[, 1], main = "Monthly sales of a product", ylab = "Sales", xlab = "Year")
-#' points(msales, pch = (msales[, "stockouts"] == 1) + 1)
-#' legend("bottomright", pch = 1:2, legend = c("Excess stock", "Stock shortage"))
+#' stock <- factor(msales[, "stockouts"],
+#'   labels = c("Excess stock", "Stock shortage")
+#' )
+#' autoplot(msales[, "Sales"],
+#'   main = "Monthly sales of a product",
+#'   ylab = "Sales", xlab = "Year"
+#' ) +
+#'   ggplot2::geom_point(ggplot2::aes(shape = stock)) +
+#'   ggplot2::labs(shape = NULL)
 #'
 "msales"
 
@@ -298,7 +330,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(ukcars, main = "UK passenger vehicle production", ylab = "Thousands of cars", xlab = "Year")
+#' autoplot(ukcars,
+#'   main = "UK passenger vehicle production",
+#'   ylab = "Thousands of cars", xlab = "Year"
+#' )
 #'
 "ukcars"
 
@@ -320,7 +355,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(unemp.cci[, 1:2], main = "Unemployment and the CCI", xlab = "Year")
+#' autoplot(unemp.cci[, c("unemp", "cci")], facets = TRUE,
+#'   main = "Unemployment and the CCI",
+#'   ylab = "", xlab = "Year"
+#' )
 #'
 "unemp.cci"
 
@@ -335,7 +373,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(usnetelec, main = "Annual US net electricity generation", ylab = "billion kWh", xlab = "Year")
+#' autoplot(usnetelec,
+#'   main = "Annual US net electricity generation",
+#'   ylab = "billion kWh", xlab = "Year"
+#' )
 #'
 "usnetelec"
 
@@ -349,7 +390,7 @@
 #' @template source
 #' @examples
 #'
-#' plot(usgdp, main = "Quarterly US GDP", xlab = "Year", ylab = "US Dollars")
+#' autoplot(usgdp, main = "Quarterly US GDP", ylab = "US dollars", xlab = "Year")
 #'
 "usgdp"
 
@@ -364,7 +405,7 @@
 #' @template source
 #' @examples
 #'
-#' plot(utility, main = "Hourly utility demand", ylab = "MW", xlab = "Day")
+#' autoplot(utility, main = "Hourly utility demand", ylab = "MW", xlab = "Day")
 #'
 "utility"
 
@@ -379,7 +420,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(vehicles, main = "Hourly vehicle count", xlab = "Day", ylab = "Number of vehicles")
+#' autoplot(vehicles,
+#'   main = "Hourly vehicle count",
+#'   ylab = "Number of vehicles", xlab = "Day"
+#' )
 #'
 "vehicles"
 
@@ -394,7 +438,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(visitors, main = "Overseas visitors to Australia", ylab = "Thousands of people", xlab = "Year")
+#' autoplot(visitors,
+#'   main = "Overseas visitors to Australia",
+#'   ylab = "Thousands of people", xlab = "Year"
+#' )
 #'
 "visitors"
 
@@ -413,7 +460,10 @@
 #' @template source
 #' @examples
 #'
-#' plot(xrates, main = "Foreign exchange rates", xlab = "Year")
+#' autoplot(xrates, facets = TRUE,
+#'   main = "Foreign exchange rates",
+#'   ylab = "", xlab = "Year"
+#' )
 #'
 "xrates"
 

@@ -20,7 +20,10 @@ Monthly sales of an automobile part.
 }
 \examples{
 
-plot(partx, main = "Monthly sales of an automobile part", ylab = "Sales", xlab = "Year")
+autoplot(partx,
+  main = "Monthly sales of an automobile part",
+  ylab = "Sales", xlab = "Year"
+)
 
 }
 \references{

@@ -21,7 +21,10 @@ May 1985 - April 2005.
 }
 \examples{
 
-plot(visitors, main = "Overseas visitors to Australia", ylab = "Thousands of people", xlab = "Year")
+autoplot(visitors,
+  main = "Overseas visitors to Australia",
+  ylab = "Thousands of people", xlab = "Year"
+)
 
 }
 \references{

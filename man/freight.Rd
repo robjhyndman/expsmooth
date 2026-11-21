@@ -21,7 +21,10 @@ new orders, equip. mfrers. Series N0193 from the M3 competition.
 }
 \examples{
 
-plot(freight, main = "New freight cars shipped in USA", xlab = "Year", ylab = "")
+autoplot(freight,
+  main = "New freight cars shipped in USA",
+  ylab = "", xlab = "Year"
+)
 
 }
 \references{

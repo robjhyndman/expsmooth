@@ -20,7 +20,10 @@ Annual US net electricity generation (billion kWh) for 1949-2003.
 }
 \examples{
 
-plot(usnetelec, main = "Annual US net electricity generation", ylab = "billion kWh", xlab = "Year")
+autoplot(usnetelec,
+  main = "Annual US net electricity generation",
+  ylab = "billion kWh", xlab = "Year"
+)
 
 }
 \references{

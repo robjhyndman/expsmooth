@@ -21,7 +21,10 @@ February 2005.
 }
 \examples{
 
-plot(cangas, main = "Monthly Canadian gas production", ylab = "billion cubic metres", xlab = "Year")
+autoplot(cangas,
+  main = "Monthly Canadian gas production",
+  ylab = "billion cubic metres", xlab = "Year"
+)
 
 }
 \references{

@@ -28,7 +28,10 @@ September 2005.
 }
 \examples{
 
-plot(unemp.cci[, 1:2], main = "Unemployment and the CCI", xlab = "Year")
+autoplot(unemp.cci[, c("unemp", "cci")], facets = TRUE,
+  main = "Unemployment and the CCI",
+  ylab = "", xlab = "Year"
+)
 
 }
 \references{

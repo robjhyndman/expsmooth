@@ -22,7 +22,10 @@ Statistics, Air Carrier Traffic Statistics Monthly.
 }
 \examples{
 
-plot(enplanements, main = "US domestic enplanements", ylab = "millions", xlab = "Year")
+autoplot(enplanements,
+  main = "US domestic enplanements",
+  ylab = "millions", xlab = "Year"
+)
 
 }
 \references{

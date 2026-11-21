@@ -20,7 +20,7 @@ Quarterly US GDP, 1947:1 - 2006:1.
 }
 \examples{
 
-plot(usgdp, main = "Quarterly US GDP", xlab = "Year", ylab = "US Dollars")
+autoplot(usgdp, main = "Quarterly US GDP", ylab = "US dollars", xlab = "Year")
 
 }
 \references{

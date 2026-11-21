@@ -21,7 +21,10 @@ Makridakis et al. (1998, p.162).
 }
 \examples{
 
-plot(frexport, ylab = "thousands of francs", main = "Quarterly exports", xlab = "Year")
+autoplot(frexport,
+  main = "Quarterly exports",
+  ylab = "thousands of francs", xlab = "Year"
+)
 
 }
 \references{

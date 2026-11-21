@@ -20,7 +20,10 @@ Quarterly UK passenger car production (thousands of cars), 1977:1 - 2005:1.
 }
 \examples{
 
-plot(ukcars, main = "UK passenger vehicle production", ylab = "Thousands of cars", xlab = "Year")
+autoplot(ukcars,
+  main = "UK passenger vehicle production",
+  ylab = "Thousands of cars", xlab = "Year"
+)
 
 }
 \references{

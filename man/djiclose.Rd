@@ -25,7 +25,10 @@ October 1928 - Dec 2007.
 }
 \examples{
 
-plot(djiclose, main = "Dow Jones Index", xlab = "Year")
+autoplot(djiclose, facets = TRUE,
+  main = "Dow Jones Index",
+  ylab = "", xlab = "Year"
+)
 
 }
 \references{

@@ -22,7 +22,10 @@ bars/cathodes, LME, cash (pounds/ton). Source: UNCTAD
 }
 \examples{
 
-plot(mcopper, main = "Monthly copper price", ylab = "pounds per ton", xlab = "Year")
+autoplot(mcopper,
+  main = "Monthly copper price",
+  ylab = "pounds per ton", xlab = "Year"
+)
 
 }
 \references{

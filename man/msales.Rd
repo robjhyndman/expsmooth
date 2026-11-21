@@ -26,9 +26,15 @@ Monthly sales for a product with shortage indicators.
 }
 \examples{
 
-plot(msales[, 1], main = "Monthly sales of a product", ylab = "Sales", xlab = "Year")
-points(msales, pch = (msales[, "stockouts"] == 1) + 1)
-legend("bottomright", pch = 1:2, legend = c("Excess stock", "Stock shortage"))
+stock <- factor(msales[, "stockouts"],
+  labels = c("Excess stock", "Stock shortage")
+)
+autoplot(msales[, "Sales"],
+  main = "Monthly sales of a product",
+  ylab = "Sales", xlab = "Year"
+) +
+  ggplot2::geom_point(ggplot2::aes(shape = stock)) +
+  ggplot2::labs(shape = NULL)
 
 }
 \references{

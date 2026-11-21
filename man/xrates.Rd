@@ -25,7 +25,10 @@ Australian dollar, January 2000 - May 2006.
 }
 \examples{
 
-plot(xrates, main = "Foreign exchange rates", xlab = "Year")
+autoplot(xrates, facets = TRUE,
+  main = "Foreign exchange rates",
+  ylab = "", xlab = "Year"
+)
 
 }
 \references{

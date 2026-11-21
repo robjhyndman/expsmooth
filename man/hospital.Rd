@@ -22,7 +22,10 @@ There are 767 time series that had a mean count of at least 10 and no zeros.
 }
 \examples{
 
-plot(hospital[, 1:10], main = "Monthly patient count", xlab = "Year")
+autoplot(hospital[, 1:5], facets = TRUE,
+  main = "Monthly patient count",
+  ylab = "Patients", xlab = "Year"
+)
 
 }
 \references{

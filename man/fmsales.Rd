@@ -20,7 +20,7 @@ Sales of a product for 62 weeks starting in early 2003.
 }
 \examples{
 
-plot(fmsales, ylab = "FM sales (thousands)", xlab = "Week")
+autoplot(fmsales, ylab = "FM sales (thousands)", xlab = "Week")
 
 }
 \references{

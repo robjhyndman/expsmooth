@@ -22,7 +22,10 @@ week 24, 2000.
 }
 \examples{
 
-plot(jewelry[, 1:10], main = "Weekly sales of costume jewelry items", xlab = "Year")
+autoplot(jewelry[, 1:5], facets = TRUE,
+  main = "Weekly sales of costume jewelry items",
+  ylab = "Sales", xlab = "Year"
+)
 
 }
 \references{
