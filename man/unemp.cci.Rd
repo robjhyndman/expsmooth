@@ -5,21 +5,26 @@
 \alias{unemp.cci}
 \title{Unemployment and the CCI}
 \format{
-multiple time series
+Monthly multiple time series with 100 observations on 3 variables:
+\describe{
+  \item{\code{unemp}}{Seasonally adjusted civilian unemployment.}
+  \item{\code{cci}}{Consumer confidence index.}
+  \item{\code{sep11}}{A "terrorism" indicator variable taking value 1 from
+  September 2001, and 0 before.}
+}
 }
 \source{
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
-Springer.
+Springer. \doi{10.1007/978-3-540-71918-2}.
 }
 \usage{
 unemp.cci
 }
 \description{
-100 monthly observations on the consumer confidence index (\code{cci}) and
-seasonally adjusted civilian unemployment (\code{unemp}) in the US, covering
-the period June 1997 -- September 2005. The third column is an "terrorism"
-indicator variable taking value 1 from September 2001.
+100 monthly observations on the consumer confidence index and seasonally
+adjusted civilian unemployment in the US, covering the period June 1997 --
+September 2005.
 }
 \examples{
 

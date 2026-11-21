@@ -5,12 +5,12 @@
 \alias{freight}
 \title{Annual US new freight cars}
 \format{
-time series
+Annual time series of length 47.
 }
 \source{
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
-Springer. \url{https://robjhyndman.com/expsmooth/}
+Springer. \doi{10.1007/978-3-540-71918-2}.
 }
 \usage{
 freight
@@ -23,5 +23,8 @@ new orders, equip. mfrers. Series N0193 from the M3 competition.
 
 plot(freight, main = "New freight cars shipped in USA", xlab = "Year", ylab = "")
 
+}
+\references{
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

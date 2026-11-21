@@ -5,12 +5,13 @@
 \alias{hospital}
 \title{Monthly patient count}
 \format{
-multiple time series
+Monthly multiple time series with 84 observations on 767 series,
+January 2000 - December 2006.
 }
 \source{
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
-Springer
+Springer. \doi{10.1007/978-3-540-71918-2}.
 }
 \usage{
 hospital

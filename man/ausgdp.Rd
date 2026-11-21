@@ -5,18 +5,18 @@
 \alias{ausgdp}
 \title{Quarterly Australian GDP}
 \format{
-time series
+Quarterly time series of length 107.
 }
 \source{
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
-Springer.
+Springer. \doi{10.1007/978-3-540-71918-2}.
 }
 \usage{
 ausgdp
 }
 \description{
-Quarterly Australian GDP per capita, 1971:1 - 1998:1
+Quarterly Australian GDP per capita, 1971:3 - 1998:1.
 }
 \examples{
 

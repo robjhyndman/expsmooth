@@ -3,20 +3,21 @@
 \docType{data}
 \name{visitors}
 \alias{visitors}
-\title{Monthly Australian overseas vistors}
+\title{Monthly Australian overseas visitors}
 \format{
-time series
+Monthly time series of length 240.
 }
 \source{
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
-Springer.
+Springer. \doi{10.1007/978-3-540-71918-2}.
 }
 \usage{
 visitors
 }
 \description{
-Monthly Australian short-term overseas vistors. May 1985-April 2005
+Monthly Australian short-term overseas visitors (thousands of people),
+May 1985 - April 2005.
 }
 \examples{
 

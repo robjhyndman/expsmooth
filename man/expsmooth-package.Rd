@@ -10,9 +10,10 @@ Data sets from the book "Forecasting with exponential smoothing: the state
 space approach" by Hyndman, Koehler, Ord and Snyder (Springer, 2008).
 }
 \references{
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D.,
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D.
 (2008) \emph{Forecasting with exponential smoothing: the state space
-approach}, Springer. \url{https://robjhyndman.com/expsmooth/}.
+approach}, Springer. \doi{10.1007/978-3-540-71918-2}.
+\url{https://robjhyndman.com/expsmooth/}
 }
 \seealso{
 Useful links:

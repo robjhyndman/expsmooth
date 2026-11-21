@@ -5,12 +5,16 @@
 \alias{gasprice}
 \title{US gasoline prices}
 \format{
-bivariate time series
+Monthly multiple time series with 191 observations on 2 variables:
+\describe{
+  \item{\code{GasPrice}}{Average retail price of gasoline (dollars per gallon).}
+  \item{\code{SpotPrice}}{Spot price of WTI oil (dollars per barrel).}
+}
 }
 \source{
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
-Springer.
+Springer. \doi{10.1007/978-3-540-71918-2}.
 }
 \usage{
 gasprice
@@ -18,7 +22,9 @@ gasprice
 \description{
 Monthly US retail gasoline price (the average price per gallon, in dollars)
 and the spot price of a barrel of West Texas Intermediate (WTI) oil in
-dollars as traded at Cushing, Oklahoma.  Jan 1991 - Nov 2006.
+dollars as traded at Cushing, Oklahoma. Jan 1991 - Nov 2006.
+These series were obtained from the US Energy Information Administration
+website \url{https://www.eia.gov}.
 }
 \examples{
 
@@ -38,8 +44,6 @@ legend("topleft",
 
 }
 \references{
-\url{https://robjhyndman.com/expsmooth/}. These series were obtained
-from the US Energy Information Administration website
-\url{https://www.eia.gov}.
+\url{https://robjhyndman.com/expsmooth/}
 }
 \keyword{datasets}

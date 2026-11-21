@@ -5,12 +5,13 @@
 \alias{jewelry}
 \title{Weekly jewelry sales}
 \format{
-multiple time series
+Weekly multiple time series (frequency 52) with 124 observations
+on 314 series.
 }
 \source{
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
-Springer.
+Springer. \doi{10.1007/978-3-540-71918-2}.
 }
 \usage{
 jewelry

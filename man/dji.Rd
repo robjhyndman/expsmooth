@@ -5,18 +5,19 @@
 \alias{dji}
 \title{Monthly Dow Jones Index}
 \format{
-multiple time series
+Monthly multiple time series with 207 observations on 4 variables:
+\code{Open}, \code{High}, \code{Low} and \code{Close}.
 }
 \source{
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
-Springer.
+Springer. \doi{10.1007/978-3-540-71918-2}.
 }
 \usage{
 dji
 }
 \description{
-Monthly Dow Jones Index: Open, High, Low, Close. Jan 1990 - Mar 2007
+Monthly Dow Jones Index: Open, High, Low, Close. Jan 1990 - Mar 2007.
 }
 \examples{
 

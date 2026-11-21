@@ -5,22 +5,22 @@
 \alias{usnetelec}
 \title{Annual US net electricity generation}
 \format{
-time series
+Annual time series of length 55.
 }
 \source{
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
-Springer.
+Springer. \doi{10.1007/978-3-540-71918-2}.
 }
 \usage{
 usnetelec
 }
 \description{
-Annual US net electricity generation (billion kwh) for 1949-2003
+Annual US net electricity generation (billion kWh) for 1949-2003.
 }
 \examples{
 
-plot(usnetelec, main = "Annual US net electricity generation", ylab = "billion kwh", xlab = "Year")
+plot(usnetelec, main = "Annual US net electricity generation", ylab = "billion kWh", xlab = "Year")
 
 }
 \references{

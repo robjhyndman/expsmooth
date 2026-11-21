@@ -5,19 +5,19 @@
 \alias{cangas}
 \title{Monthly Canadian gas production}
 \format{
-time series
+Monthly time series of length 542.
 }
 \source{
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
-Springer.
+Springer. \doi{10.1007/978-3-540-71918-2}.
 }
 \usage{
 cangas
 }
 \description{
 Monthly Canadian gas production, billions of cubic metres, January 1960 -
-February 2005
+February 2005.
 }
 \examples{
 

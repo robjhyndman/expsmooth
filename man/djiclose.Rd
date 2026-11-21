@@ -5,19 +5,23 @@
 \alias{djiclose}
 \title{Monthly Dow Jones Index: closing}
 \format{
-multiple time series
+Monthly multiple time series with 951 observations on 2 variables:
+\describe{
+  \item{\code{close}}{Closing value of the index.}
+  \item{\code{pcreturn}}{Percentage return. The first value is missing.}
+}
 }
 \source{
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
-Springer.
+Springer. \doi{10.1007/978-3-540-71918-2}.
 }
 \usage{
 djiclose
 }
 \description{
 Closing values of the Dow Jones Index on the first day of each month,
-October 1928 - Dec 2007.  Two columns: \code{close} and \code{pcreturn}.
+October 1928 - Dec 2007.
 }
 \examples{
 

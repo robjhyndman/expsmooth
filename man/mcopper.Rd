@@ -5,19 +5,19 @@
 \alias{mcopper}
 \title{Monthly copper prices}
 \format{
-time series
+Monthly time series of length 564.
 }
 \source{
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},
-Springer
+Springer. \doi{10.1007/978-3-540-71918-2}.
 }
 \usage{
 mcopper
 }
 \description{
 Monthly copper prices. Copper, grade A, electrolytic wire
-bars/cathodes,LME,cash (pounds/ton) Source: UNCTAD
+bars/cathodes, LME, cash (pounds/ton). Source: UNCTAD
 (\url{https://unctadstat.unctad.org/EN/}).
 }
 \examples{
