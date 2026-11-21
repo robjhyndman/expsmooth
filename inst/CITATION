@@ -1,23 +1,17 @@
-
-year <- sub("-.*", "", meta$Date)
-if(!length(year))
-  year <- substr(Sys.Date(),1,4)
-vers <- meta$Version
-if(is.null(vers))
-  vers <- packageVersion("forecast")
-vers <- paste("R package version", vers)
-
 citHeader("To cite the expsmooth package in publications, please use:")
 
 bibentry(bibtype = "Manual",
-  title = 'expsmooth: Data sets from "Exponential smoothing: a state space approach" by Hyndman, Koehler, Ord and Snyder (Springer, 2008)',
+  title = 'expsmooth: Data sets from "Forecasting with Exponential Smoothing: The State Space Approach" by Hyndman, Koehler, Ord and Snyder (Springer, 2008)',
   author = "Rob J Hyndman",
-  year = year,
-  note = vers,
+  year = format(Sys.Date(), "%Y"),
+  note = paste("R package version", meta$Version),
   url = "https://pkg.robjhyndman.com/expsmooth/")
 
 bibentry(bibtype = "Book",
-  title="Exponential smoothing: a state space approach",
+  title = "Forecasting with Exponential Smoothing: The State Space Approach",
   author = "Rob J Hyndman and Anne B Koehler and J Keith Ord and Ralph D Snyder",
   year = "2008",
-  publisher = "Springer")
+  publisher = "Springer",
+  address = "Berlin",
+  doi = "10.1007/978-3-540-71918-2",
+  url = "https://robjhyndman.com/expsmooth/")
