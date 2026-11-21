@@ -2,7 +2,7 @@
 
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/expsmooth)](https://cran.r-project.org/package=expsmooth)
 [![Downloads](https://cranlogs.r-pkg.org/badges/expsmooth)](https://cran.r-project.org/package=expsmooth)
-[![Licence](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[![Licence](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://cran.r-project.org/web/licenses/GPL-3)
 
 An R package containing data from the book ["Forecasting with Exponential Smoothing: The State Space Approach" by Hyndman, Koehler, Ord and Snyder (Springer, 2008)](https://robjhyndman.com/expsmooth/).
 
