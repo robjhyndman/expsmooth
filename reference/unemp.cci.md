@@ -28,6 +28,7 @@ Springer.
 ## Examples
 
 ``` r
+
 plot(unemp.cci[, 1:2], main = "Unemployment and the CCI", xlab = "Year")
 
 ```

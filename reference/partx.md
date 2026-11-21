@@ -25,6 +25,7 @@ Springer
 ## Examples
 
 ``` r
+
 plot(partx, main = "Monthly sales of an automobile part", ylab = "Sales", xlab = "Year")
 
 ```

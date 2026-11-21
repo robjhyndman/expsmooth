@@ -25,6 +25,7 @@ Springer.
 ## Examples
 
 ``` r
+
 plot(usnetelec, main = "Annual US net electricity generation", ylab = "billion kwh", xlab = "Year")
 
 ```

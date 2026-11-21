@@ -25,6 +25,7 @@ Springer
 ## Examples
 
 ``` r
+
 plot(usgdp, main = "Quarterly US GDP", xlab = "Year", ylab = "US Dollars")
 
 ```

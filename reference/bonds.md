@@ -26,6 +26,7 @@ Springer.
 ## Examples
 
 ``` r
+
 plot(bonds, main = "US 10-year bonds yield", ylab = "Percentage per annum", xlab = "Year")
 
 ```

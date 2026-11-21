@@ -26,6 +26,7 @@ Springer.
 ## Examples
 
 ``` r
+
 plot(frexport, ylab = "thousands of francs", main = "Quarterly exports", xlab = "Year")
 
 ```

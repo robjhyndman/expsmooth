@@ -26,6 +26,7 @@ Springer.
 ## Examples
 
 ``` r
+
 plot(vehicles, main = "Hourly vehicle count", xlab = "Day", ylab = "Number of vehicles")
 
 ```

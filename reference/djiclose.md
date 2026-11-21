@@ -26,6 +26,7 @@ Springer.
 ## Examples
 
 ``` r
+
 plot(djiclose, main = "Dow Jones Index", xlab = "Year")
 
 ```

@@ -27,6 +27,7 @@ Springer.
 ## Examples
 
 ``` r
+
 plot(xrates, main = "Foreign exchange rates", xlab = "Year")
 
 ```

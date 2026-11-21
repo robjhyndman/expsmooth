@@ -26,6 +26,7 @@ Springer.
 ## Examples
 
 ``` r
+
 plot(cangas, main = "Monthly Canadian gas production", ylab = "billion cubic metres", xlab = "Year")
 
 ```

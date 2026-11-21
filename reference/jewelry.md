@@ -26,6 +26,7 @@ Springer.
 ## Examples
 
 ``` r
+
 plot(jewelry[, 1:10], main = "Weekly sales of costume jewelry items", xlab = "Year")
 
 ```

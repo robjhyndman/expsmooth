@@ -23,6 +23,7 @@ Springer. <https://robjhyndman.com/expsmooth/>
 ## Examples
 
 ``` r
+
 plot(freight, main = "New freight cars shipped in USA", xlab = "Year", ylab = "")
 
 ```

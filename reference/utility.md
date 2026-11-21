@@ -25,6 +25,7 @@ Springer.
 ## Examples
 
 ``` r
+
 plot(utility, main = "Hourly utility demand", ylab = "MW", xlab = "Day")
 
 ```

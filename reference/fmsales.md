@@ -25,6 +25,7 @@ Springer.
 ## Examples
 
 ``` r
+
 plot(fmsales, ylab = "FM sales (thousands)", xlab = "Week")
 
 ```

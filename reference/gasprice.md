@@ -28,6 +28,7 @@ the US Energy Information Administration website <https://www.eia.gov>.
 ## Examples
 
 ``` r
+
 par(mar = c(5, 4, 2, 5))
 plot(gasprice[, 1],
   xlab = "Year", ylab = "Average retail price per gallon (dollars)",

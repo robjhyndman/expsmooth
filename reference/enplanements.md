@@ -27,6 +27,7 @@ Springer
 ## Examples
 
 ``` r
+
 plot(enplanements, main = "US domestic enplanements", ylab = "millions", xlab = "Year")
 
 ```

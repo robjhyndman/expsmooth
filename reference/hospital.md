@@ -27,6 +27,7 @@ Springer
 ## Examples
 
 ``` r
+
 plot(hospital[, 1:10], main = "Monthly patient count", xlab = "Year")
 
 ```

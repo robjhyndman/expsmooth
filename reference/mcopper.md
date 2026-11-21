@@ -27,6 +27,7 @@ Springer
 ## Examples
 
 ``` r
+
 plot(mcopper, main = "Monthly copper price", ylab = "pounds per ton", xlab = "Year")
 
 ```
