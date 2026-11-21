@@ -29,6 +29,9 @@ Springer.
 
 ``` r
 
-plot(ukcars, main = "UK passenger vehicle production", ylab = "Thousands of cars", xlab = "Year")
+autoplot(ukcars,
+  main = "UK passenger vehicle production",
+  ylab = "Thousands of cars", xlab = "Year"
+)
 
 ```

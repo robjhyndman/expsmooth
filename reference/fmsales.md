@@ -28,6 +28,6 @@ Springer.
 
 ``` r
 
-plot(fmsales, ylab = "FM sales (thousands)", xlab = "Week")
+autoplot(fmsales, ylab = "FM sales (thousands)", xlab = "Week")
 
 ```

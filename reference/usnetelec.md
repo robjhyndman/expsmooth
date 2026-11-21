@@ -28,6 +28,9 @@ Springer.
 
 ``` r
 
-plot(usnetelec, main = "Annual US net electricity generation", ylab = "billion kWh", xlab = "Year")
+autoplot(usnetelec,
+  main = "Annual US net electricity generation",
+  ylab = "billion kWh", xlab = "Year"
+)
 
 ```

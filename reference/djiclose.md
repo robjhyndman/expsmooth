@@ -37,6 +37,9 @@ Springer.
 
 ``` r
 
-plot(djiclose, main = "Dow Jones Index", xlab = "Year")
+autoplot(djiclose, facets = TRUE,
+  main = "Dow Jones Index",
+  ylab = "", xlab = "Year"
+)
 
 ```

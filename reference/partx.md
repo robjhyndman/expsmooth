@@ -28,6 +28,9 @@ Springer.
 
 ``` r
 
-plot(partx, main = "Monthly sales of an automobile part", ylab = "Sales", xlab = "Year")
+autoplot(partx,
+  main = "Monthly sales of an automobile part",
+  ylab = "Sales", xlab = "Year"
+)
 
 ```

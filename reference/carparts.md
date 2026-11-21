@@ -29,6 +29,9 @@ Springer.
 
 ``` r
 
-plot(carparts[, 2001:2010], main = "Monthly car part sales", xlab = "Year")
+autoplot(carparts[, 2001:2005], facets = TRUE,
+  main = "Monthly car part sales",
+  ylab = "Sales", xlab = "Year"
+)
 
 ```

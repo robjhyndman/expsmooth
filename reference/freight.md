@@ -30,6 +30,9 @@ Springer.
 
 ``` r
 
-plot(freight, main = "New freight cars shipped in USA", xlab = "Year", ylab = "")
+autoplot(freight,
+  main = "New freight cars shipped in USA",
+  ylab = "", xlab = "Year"
+)
 
 ```

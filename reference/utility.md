@@ -28,6 +28,6 @@ Springer.
 
 ``` r
 
-plot(utility, main = "Hourly utility demand", ylab = "MW", xlab = "Day")
+autoplot(utility, main = "Hourly utility demand", ylab = "MW", xlab = "Day")
 
 ```

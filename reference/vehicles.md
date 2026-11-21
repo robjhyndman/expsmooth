@@ -29,6 +29,9 @@ Springer.
 
 ``` r
 
-plot(vehicles, main = "Hourly vehicle count", xlab = "Day", ylab = "Number of vehicles")
+autoplot(vehicles,
+  main = "Hourly vehicle count",
+  ylab = "Number of vehicles", xlab = "Day"
+)
 
 ```

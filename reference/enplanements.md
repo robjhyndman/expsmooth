@@ -30,6 +30,9 @@ Springer.
 
 ``` r
 
-plot(enplanements, main = "US domestic enplanements", ylab = "millions", xlab = "Year")
+autoplot(enplanements,
+  main = "US domestic enplanements",
+  ylab = "millions", xlab = "Year"
+)
 
 ```

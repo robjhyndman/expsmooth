@@ -29,6 +29,9 @@ Springer.
 
 ``` r
 
-plot(visitors, main = "Overseas visitors to Australia", ylab = "Thousands of people", xlab = "Year")
+autoplot(visitors,
+  main = "Overseas visitors to Australia",
+  ylab = "Thousands of people", xlab = "Year"
+)
 
 ```

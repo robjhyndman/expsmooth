@@ -31,6 +31,9 @@ Springer.
 
 ``` r
 
-plot(hospital[, 1:10], main = "Monthly patient count", xlab = "Year")
+autoplot(hospital[, 1:5], facets = TRUE,
+  main = "Monthly patient count",
+  ylab = "Patients", xlab = "Year"
+)
 
 ```

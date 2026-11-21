@@ -28,6 +28,6 @@ Springer.
 
 ``` r
 
-plot(usgdp, main = "Quarterly US GDP", xlab = "Year", ylab = "US Dollars")
+autoplot(usgdp, main = "Quarterly US GDP", ylab = "US dollars", xlab = "Year")
 
 ```
