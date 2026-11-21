@@ -10,13 +10,15 @@ fmsales
 
 ## Format
 
-time series
+Time series of length 62, indexed by week (frequency 1).
 
 ## Source
 
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 *Forecasting with exponential smoothing: the state space approach*,
 Springer.
+[doi:10.1007/978-3-540-71918-2](https://doi.org/10.1007/978-3-540-71918-2)
+.
 
 ## References
 

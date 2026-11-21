@@ -1,11 +1,45 @@
 # expsmooth ![](reference/figures/expsmooth-hex.png)
 
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/expsmooth)](https://cran.r-project.org/package=expsmooth)
-[![Downloads](http://cranlogs.r-pkg.org/badges/expsmooth)](https://cran.r-project.org/package=expsmooth)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/expsmooth)](https://cran.r-project.org/package=expsmooth)
+[![Downloads](https://cranlogs.r-pkg.org/badges/expsmooth)](https://cran.r-project.org/package=expsmooth)
 [![Licence](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-An R package containing data from the book [“Exponential smoothing: a
-state space approach” by Hyndman, Koehler, Ord and Snyder (Springer,
-2008)](https://robjhyndman.com/expsmooth/)
+An R package containing data from the book [“Forecasting with
+Exponential Smoothing: The State Space Approach” by Hyndman, Koehler,
+Ord and Snyder (Springer, 2008)](https://robjhyndman.com/expsmooth/).
 
-[![](reference/figures/expsmooth.jpg)](https://robjhyndman.com/expsmooth/)
+[![Cover of the book Forecasting with Exponential Smoothing: The State
+Space
+Approach](reference/figures/expsmooth.jpg)](https://robjhyndman.com/expsmooth/)
+
+## Installation
+
+You can install the released version from
+[CRAN](https://cran.r-project.org/package=expsmooth):
+
+``` r
+
+install.packages("expsmooth")
+```
+
+or the development version from
+[GitHub](https://github.com/robjhyndman/expsmooth):
+
+``` r
+
+# install.packages("pak")
+pak::pak("robjhyndman/expsmooth")
+```
+
+## Example
+
+Loading the package also loads the
+[forecast](https://pkg.robjhyndman.com/forecast/) package, which can be
+used to fit exponential smoothing state space models to the data.
+
+``` r
+
+library(expsmooth)
+fit <- ets(visitors)
+autoplot(forecast(fit))
+```

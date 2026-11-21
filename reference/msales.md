@@ -1,7 +1,6 @@
 # Monthly product sales
 
-Monthly sales for a product with shortage indicators. Contains sales
-(first column) and stockout indicator (second column).
+Monthly sales for a product with shortage indicators.
 
 ## Usage
 
@@ -11,13 +10,24 @@ msales
 
 ## Format
 
-time series
+Monthly multiple time series with 36 observations on 2 variables,
+indexed by year 1-3:
+
+- `Sales`:
+
+  Monthly sales.
+
+- `stockouts`:
+
+  Indicator equal to 1 when there was a stock shortage, and 0 otherwise.
 
 ## Source
 
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 *Forecasting with exponential smoothing: the state space approach*,
-Springer
+Springer.
+[doi:10.1007/978-3-540-71918-2](https://doi.org/10.1007/978-3-540-71918-2)
+.
 
 ## References
 

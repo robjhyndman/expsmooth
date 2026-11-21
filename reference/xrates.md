@@ -1,8 +1,7 @@
 # Monthly exchange rates
 
 Monthly foreign exchange rates: US dollar and UK pound against the
-Australia dollar. `audusd` contains USD/AUD and `audukp` contains
-UKP/AUD.
+Australian dollar, January 2000 - May 2006.
 
 ## Usage
 
@@ -12,13 +11,23 @@ xrates
 
 ## Format
 
-multiple time series
+Monthly multiple time series with 77 observations on 2 variables:
+
+- `audusd`:
+
+  USD/AUD exchange rate.
+
+- `audukp`:
+
+  UKP/AUD exchange rate.
 
 ## Source
 
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 *Forecasting with exponential smoothing: the state space approach*,
 Springer.
+[doi:10.1007/978-3-540-71918-2](https://doi.org/10.1007/978-3-540-71918-2)
+.
 
 ## References
 

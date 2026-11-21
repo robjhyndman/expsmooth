@@ -12,13 +12,16 @@ hospital
 
 ## Format
 
-multiple time series
+Monthly multiple time series with 84 observations on 767 series, January
+2000 - December 2006.
 
 ## Source
 
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 *Forecasting with exponential smoothing: the state space approach*,
-Springer
+Springer.
+[doi:10.1007/978-3-540-71918-2](https://doi.org/10.1007/978-3-540-71918-2)
+.
 
 ## References
 

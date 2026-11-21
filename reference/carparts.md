@@ -1,6 +1,6 @@
 # Monthly sales car parts
 
-Monthly sales car parts. 2674 series. Jan 1998 - Mar 2002.
+Monthly sales of car parts. 2674 series. Jan 1998 - Mar 2002.
 
 ## Usage
 
@@ -10,13 +10,16 @@ carparts
 
 ## Format
 
-multiple time series
+Monthly multiple time series with 51 observations on 2674 series. Some
+series contain missing values.
 
 ## Source
 
-Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D. (2008)
 *Forecasting with exponential smoothing: the state space approach*,
-Springer
+Springer.
+[doi:10.1007/978-3-540-71918-2](https://doi.org/10.1007/978-3-540-71918-2)
+.
 
 ## References
 

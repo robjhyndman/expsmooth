@@ -57,7 +57,7 @@ Data recorded every month
 - [`unemp.cci`](https://pkg.robjhyndman.com/expsmooth/reference/unemp.cci.md)
   : Unemployment and the CCI
 - [`visitors`](https://pkg.robjhyndman.com/expsmooth/reference/visitors.md)
-  : Monthly Australian overseas vistors
+  : Monthly Australian overseas visitors
 - [`xrates`](https://pkg.robjhyndman.com/expsmooth/reference/xrates.md)
   : Monthly exchange rates
 

@@ -4,13 +4,13 @@
 
 This package contains a collection of data sets that are designed to
 accompany the book [*Forecasting with Exponential Smoothing: The State
-Space Approach*](https://www.amazon.com/dp/3540719164) by Rob J.
+Space Approach*](https://doi.org/10.1007/978-3-540-71918-2) by Rob J.
 Hyndman, Anne B. Koehler, J. Keith Ord, and Ralph D. Snyder (Springer,
 2008).
 
 [![Cover of the book Forecasting with Exponential Smoothing: The State
 Space
-Approach](https://pkg.robjhyndman.com/expsmooth/reference/figures/expsmooth.jpg)](https://robjhyndman.com/expsmooth/)
+Approach](expsmooth-cover.jpg)](https://robjhyndman.com/expsmooth/)
 
 When the `expsmooth` package is loaded, the `forecast` package is also
 loaded, providing the functions to fit and forecast with exponential
