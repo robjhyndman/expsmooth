@@ -2,8 +2,11 @@
 ^\.Rproj\.user$
 ^_pkgdown\.yml$
 ^docs$
-Makefile
+^Makefile$
 ^pkgdown$
 ^\.github$
 ^doc$
 ^Meta$
+^hex$
+^tasks$
+^man-roxygen$
