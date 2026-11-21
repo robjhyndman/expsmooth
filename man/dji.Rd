@@ -20,9 +20,7 @@ dji
 Monthly Dow Jones Index: Open, High, Low, Close. Jan 1990 - Mar 2007.
 }
 \examples{
-
 autoplot(dji, main = "Dow Jones Index", ylab = "", xlab = "Year")
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

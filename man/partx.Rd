@@ -19,12 +19,10 @@ partx
 Monthly sales of an automobile part.
 }
 \examples{
-
 autoplot(partx,
   main = "Monthly sales of an automobile part",
   ylab = "Sales", xlab = "Year"
 )
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

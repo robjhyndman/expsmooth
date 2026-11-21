@@ -27,12 +27,10 @@ These series were obtained from the US Energy Information Administration
 website \url{https://www.eia.gov}.
 }
 \examples{
-
 autoplot(gasprice, facets = TRUE,
   main = "Gasoline and oil prices",
   ylab = "US dollars", xlab = "Year"
 )
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

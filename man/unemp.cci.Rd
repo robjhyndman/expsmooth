@@ -27,12 +27,10 @@ adjusted civilian unemployment in the US, covering the period June 1997 --
 September 2005.
 }
 \examples{
-
 autoplot(unemp.cci[, c("unemp", "cci")], facets = TRUE,
   main = "Unemployment and the CCI",
   ylab = "", xlab = "Year"
 )
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

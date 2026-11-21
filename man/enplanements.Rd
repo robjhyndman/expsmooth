@@ -21,12 +21,10 @@ Source: US Department of Transportation, Bureau of Transportation
 Statistics, Air Carrier Traffic Statistics Monthly.
 }
 \examples{
-
 autoplot(enplanements,
   main = "US domestic enplanements",
   ylab = "millions", xlab = "Year"
 )
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

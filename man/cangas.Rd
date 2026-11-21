@@ -20,12 +20,10 @@ Monthly Canadian gas production, billions of cubic metres, January 1960 -
 February 2005.
 }
 \examples{
-
 autoplot(cangas,
   main = "Monthly Canadian gas production",
   ylab = "billion cubic metres", xlab = "Year"
 )
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

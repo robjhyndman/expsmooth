@@ -24,12 +24,10 @@ Monthly foreign exchange rates: US dollar and UK pound against the
 Australian dollar, January 2000 - May 2006.
 }
 \examples{
-
 autoplot(xrates, facets = TRUE,
   main = "Foreign exchange rates",
   ylab = "", xlab = "Year"
 )
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

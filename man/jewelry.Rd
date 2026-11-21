@@ -21,12 +21,10 @@ Weekly sales of 314 costume jewelry items over the period week 5, 1998 to
 week 24, 2000.
 }
 \examples{
-
 autoplot(jewelry[, 1:5], facets = TRUE,
   main = "Weekly sales of costume jewelry items",
   ylab = "Sales", xlab = "Year"
 )
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

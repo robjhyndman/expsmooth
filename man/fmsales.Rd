@@ -19,9 +19,7 @@ fmsales
 Sales of a product for 62 weeks starting in early 2003.
 }
 \examples{
-
 autoplot(fmsales, ylab = "FM sales (thousands)", xlab = "Week")
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

@@ -20,12 +20,10 @@ Hourly vehicle counts on Monash Freeway, outside Melbourne in Victoria,
 Australia, beginning August 1995.
 }
 \examples{
-
 autoplot(vehicles,
   main = "Hourly vehicle count",
   ylab = "Number of vehicles", xlab = "Day"
 )
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

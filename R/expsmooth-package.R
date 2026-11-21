@@ -22,12 +22,10 @@
 #' @format Quarterly time series of length 107.
 #' @template source
 #' @examples
-#'
 #' autoplot(ausgdp,
 #'   main = "Australian GDP per capita",
 #'   ylab = "dollars", xlab = "Year"
 #' )
-#'
 "ausgdp"
 
 
@@ -41,12 +39,10 @@
 #' @format Monthly time series of length 125.
 #' @template source
 #' @examples
-#'
 #' autoplot(bonds,
 #'   main = "US 10-year bonds yield",
 #'   ylab = "Percentage per annum", xlab = "Year"
 #' )
-#'
 "bonds"
 
 #' Monthly Canadian gas production
@@ -59,12 +55,10 @@
 #' @format Monthly time series of length 542.
 #' @template source
 #' @examples
-#'
 #' autoplot(cangas,
 #'   main = "Monthly Canadian gas production",
 #'   ylab = "billion cubic metres", xlab = "Year"
 #' )
-#'
 "cangas"
 
 #' Monthly sales car parts
@@ -77,12 +71,10 @@
 #' Some series contain missing values.
 #' @template source
 #' @examples
-#'
 #' autoplot(carparts[, 2001:2005], facets = TRUE,
 #'   main = "Monthly car part sales",
 #'   ylab = "Sales", xlab = "Year"
 #' )
-#'
 "carparts"
 
 #' Monthly copper prices
@@ -96,12 +88,10 @@
 #' @format Monthly time series of length 564.
 #' @template source
 #' @examples
-#'
 #' autoplot(mcopper,
 #'   main = "Monthly copper price",
 #'   ylab = "pounds per ton", xlab = "Year"
 #' )
-#'
 "mcopper"
 
 
@@ -119,12 +109,10 @@
 #' }
 #' @template source
 #' @examples
-#'
 #' autoplot(djiclose, facets = TRUE,
 #'   main = "Dow Jones Index",
 #'   ylab = "", xlab = "Year"
 #' )
-#'
 "djiclose"
 
 #' Monthly Dow Jones Index
@@ -137,9 +125,7 @@
 #' \code{Open}, \code{High}, \code{Low} and \code{Close}.
 #' @template source
 #' @examples
-#'
 #' autoplot(dji, main = "Dow Jones Index", ylab = "", xlab = "Year")
-#'
 "dji"
 
 #' Monthly US domestic enplanements
@@ -153,12 +139,10 @@
 #' @format Monthly time series of length 282.
 #' @template source
 #' @examples
-#'
 #' autoplot(enplanements,
 #'   main = "US domestic enplanements",
 #'   ylab = "millions", xlab = "Year"
 #' )
-#'
 "enplanements"
 
 #' Weekly FM sales
@@ -170,9 +154,7 @@
 #' @format Time series of length 62, indexed by week (frequency 1).
 #' @template source
 #' @examples
-#'
 #' autoplot(fmsales, ylab = "FM sales (thousands)", xlab = "Week")
-#'
 "fmsales"
 
 #' Annual US new freight cars
@@ -185,12 +167,10 @@
 #' @format Annual time series of length 47.
 #' @template source
 #' @examples
-#'
 #' autoplot(freight,
 #'   main = "New freight cars shipped in USA",
 #'   ylab = "", xlab = "Year"
 #' )
-#'
 "freight"
 
 
@@ -204,12 +184,10 @@
 #' @format Quarterly time series of length 24, indexed by year 1-6.
 #' @template source
 #' @examples
-#'
 #' autoplot(frexport,
 #'   main = "Quarterly exports",
 #'   ylab = "thousands of francs", xlab = "Year"
 #' )
-#'
 "frexport"
 
 #' US gasoline prices
@@ -229,12 +207,10 @@
 #' }
 #' @template source
 #' @examples
-#'
 #' autoplot(gasprice, facets = TRUE,
 #'   main = "Gasoline and oil prices",
 #'   ylab = "US dollars", xlab = "Year"
 #' )
-#'
 "gasprice"
 
 #' Monthly patient count
@@ -248,12 +224,10 @@
 #' January 2000 - December 2006.
 #' @template source
 #' @examples
-#'
 #' autoplot(hospital[, 1:5], facets = TRUE,
 #'   main = "Monthly patient count",
 #'   ylab = "Patients", xlab = "Year"
 #' )
-#'
 "hospital"
 
 #' Weekly jewelry sales
@@ -267,12 +241,10 @@
 #' on 314 series.
 #' @template source
 #' @examples
-#'
 #' autoplot(jewelry[, 1:5], facets = TRUE,
 #'   main = "Weekly sales of costume jewelry items",
 #'   ylab = "Sales", xlab = "Year"
 #' )
-#'
 "jewelry"
 
 #' Monthly sales of an automobile part
@@ -284,12 +256,10 @@
 #' @format Monthly time series of length 51, indexed by year 1-5.
 #' @template source
 #' @examples
-#'
 #' autoplot(partx,
 #'   main = "Monthly sales of an automobile part",
 #'   ylab = "Sales", xlab = "Year"
 #' )
-#'
 "partx"
 
 #' Monthly product sales
@@ -307,7 +277,6 @@
 #' }
 #' @template source
 #' @examples
-#'
 #' stock <- factor(msales[, "stockouts"],
 #'   labels = c("Excess stock", "Stock shortage")
 #' )
@@ -317,7 +286,6 @@
 #' ) +
 #'   ggplot2::geom_point(ggplot2::aes(shape = stock)) +
 #'   ggplot2::labs(shape = NULL)
-#'
 "msales"
 
 #' Quarterly UK passenger car production
@@ -329,12 +297,10 @@
 #' @format Quarterly time series of length 113.
 #' @template source
 #' @examples
-#'
 #' autoplot(ukcars,
 #'   main = "UK passenger vehicle production",
 #'   ylab = "Thousands of cars", xlab = "Year"
 #' )
-#'
 "ukcars"
 
 #' Unemployment and the CCI
@@ -354,12 +320,10 @@
 #' }
 #' @template source
 #' @examples
-#'
 #' autoplot(unemp.cci[, c("unemp", "cci")], facets = TRUE,
 #'   main = "Unemployment and the CCI",
 #'   ylab = "", xlab = "Year"
 #' )
-#'
 "unemp.cci"
 
 
@@ -372,12 +336,10 @@
 #' @format Annual time series of length 55.
 #' @template source
 #' @examples
-#'
 #' autoplot(usnetelec,
 #'   main = "Annual US net electricity generation",
 #'   ylab = "billion kWh", xlab = "Year"
 #' )
-#'
 "usnetelec"
 
 #' Quarterly US GDP
@@ -389,9 +351,7 @@
 #' @format Quarterly time series of length 237.
 #' @template source
 #' @examples
-#'
 #' autoplot(usgdp, main = "Quarterly US GDP", ylab = "US dollars", xlab = "Year")
-#'
 "usgdp"
 
 #' Hourly utility demand
@@ -404,9 +364,7 @@
 #' days.
 #' @template source
 #' @examples
-#'
 #' autoplot(utility, main = "Hourly utility demand", ylab = "MW", xlab = "Day")
-#'
 "utility"
 
 #' Hourly vehicle counts
@@ -419,12 +377,10 @@
 #' @format Hourly time series (frequency 24) of length 1689, indexed by day.
 #' @template source
 #' @examples
-#'
 #' autoplot(vehicles,
 #'   main = "Hourly vehicle count",
 #'   ylab = "Number of vehicles", xlab = "Day"
 #' )
-#'
 "vehicles"
 
 #' Monthly Australian overseas visitors
@@ -437,12 +393,10 @@
 #' @format Monthly time series of length 240.
 #' @template source
 #' @examples
-#'
 #' autoplot(visitors,
 #'   main = "Overseas visitors to Australia",
 #'   ylab = "Thousands of people", xlab = "Year"
 #' )
-#'
 "visitors"
 
 #' Monthly exchange rates
@@ -459,12 +413,10 @@
 #' }
 #' @template source
 #' @examples
-#'
 #' autoplot(xrates, facets = TRUE,
 #'   main = "Foreign exchange rates",
 #'   ylab = "", xlab = "Year"
 #' )
-#'
 "xrates"
 
 #' @import forecast

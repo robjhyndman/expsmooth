@@ -20,12 +20,10 @@ Annual US new freight cars, 1947-1993. Freight cars, new (excl. rebuilt),
 new orders, equip. mfrers. Series N0193 from the M3 competition.
 }
 \examples{
-
 autoplot(freight,
   main = "New freight cars shipped in USA",
   ylab = "", xlab = "Year"
 )
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

@@ -21,12 +21,10 @@ Monthly patient count for products that are related to medical problems.
 There are 767 time series that had a mean count of at least 10 and no zeros.
 }
 \examples{
-
 autoplot(hospital[, 1:5], facets = TRUE,
   main = "Monthly patient count",
   ylab = "Patients", xlab = "Year"
 )
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

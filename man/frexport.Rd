@@ -20,12 +20,10 @@ Quarterly exports of a French company (in thousands of francs), taken from
 Makridakis et al. (1998, p.162).
 }
 \examples{
-
 autoplot(frexport,
   main = "Quarterly exports",
   ylab = "thousands of francs", xlab = "Year"
 )
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

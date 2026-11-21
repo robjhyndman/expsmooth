@@ -20,9 +20,7 @@ utility
 Hourly utility demand, mid western USA from 1 Jan 2003.
 }
 \examples{
-
 autoplot(utility, main = "Hourly utility demand", ylab = "MW", xlab = "Day")
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

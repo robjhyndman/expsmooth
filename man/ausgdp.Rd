@@ -19,12 +19,10 @@ ausgdp
 Quarterly Australian GDP per capita, 1971:3 - 1998:1.
 }
 \examples{
-
 autoplot(ausgdp,
   main = "Australian GDP per capita",
   ylab = "dollars", xlab = "Year"
 )
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

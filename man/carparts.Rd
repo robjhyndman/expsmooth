@@ -20,12 +20,10 @@ carparts
 Monthly sales of car parts. 2674 series. Jan 1998 - Mar 2002.
 }
 \examples{
-
 autoplot(carparts[, 2001:2005], facets = TRUE,
   main = "Monthly car part sales",
   ylab = "Sales", xlab = "Year"
 )
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

@@ -21,12 +21,10 @@ bars/cathodes, LME, cash (pounds/ton). Source: UNCTAD
 (\url{https://unctadstat.unctad.org/EN/}).
 }
 \examples{
-
 autoplot(mcopper,
   main = "Monthly copper price",
   ylab = "pounds per ton", xlab = "Year"
 )
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

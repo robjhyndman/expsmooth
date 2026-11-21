@@ -20,12 +20,10 @@ Monthly US government 10-year bond yields (percent pa) from Jan 1994 to May
 2004.
 }
 \examples{
-
 autoplot(bonds,
   main = "US 10-year bonds yield",
   ylab = "Percentage per annum", xlab = "Year"
 )
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

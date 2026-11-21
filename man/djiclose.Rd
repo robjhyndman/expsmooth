@@ -24,12 +24,10 @@ Closing values of the Dow Jones Index on the first day of each month,
 October 1928 - Dec 2007.
 }
 \examples{
-
 autoplot(djiclose, facets = TRUE,
   main = "Dow Jones Index",
   ylab = "", xlab = "Year"
 )
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}
