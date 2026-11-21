@@ -28,10 +28,8 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(vehicles,
   main = "Hourly vehicle count",
   ylab = "Number of vehicles", xlab = "Day"
 )
-
 ```

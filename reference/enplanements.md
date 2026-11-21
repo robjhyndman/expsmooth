@@ -29,10 +29,8 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(enplanements,
   main = "US domestic enplanements",
   ylab = "millions", xlab = "Year"
 )
-
 ```

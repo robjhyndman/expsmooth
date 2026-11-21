@@ -28,10 +28,8 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(ukcars,
   main = "UK passenger vehicle production",
   ylab = "Thousands of cars", xlab = "Year"
 )
-
 ```

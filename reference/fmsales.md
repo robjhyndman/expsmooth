@@ -27,7 +27,5 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(fmsales, ylab = "FM sales (thousands)", xlab = "Week")
-
 ```

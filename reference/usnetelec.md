@@ -27,10 +27,8 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(usnetelec,
   main = "Annual US net electricity generation",
   ylab = "billion kWh", xlab = "Year"
 )
-
 ```

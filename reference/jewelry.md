@@ -29,10 +29,8 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(jewelry[, 1:5], facets = TRUE,
   main = "Weekly sales of costume jewelry items",
   ylab = "Sales", xlab = "Year"
 )
-
 ```

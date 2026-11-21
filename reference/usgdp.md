@@ -27,7 +27,5 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(usgdp, main = "Quarterly US GDP", ylab = "US dollars", xlab = "Year")
-
 ```

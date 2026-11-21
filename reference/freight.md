@@ -29,10 +29,8 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(freight,
   main = "New freight cars shipped in USA",
   ylab = "", xlab = "Year"
 )
-
 ```

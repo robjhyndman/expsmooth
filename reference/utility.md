@@ -27,7 +27,5 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(utility, main = "Hourly utility demand", ylab = "MW", xlab = "Day")
-
 ```

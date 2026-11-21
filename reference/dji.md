@@ -28,7 +28,5 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(dji, main = "Dow Jones Index", ylab = "", xlab = "Year")
-
 ```

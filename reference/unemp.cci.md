@@ -42,10 +42,8 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(unemp.cci[, c("unemp", "cci")], facets = TRUE,
   main = "Unemployment and the CCI",
   ylab = "", xlab = "Year"
 )
-
 ```

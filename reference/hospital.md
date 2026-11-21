@@ -30,10 +30,8 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(hospital[, 1:5], facets = TRUE,
   main = "Monthly patient count",
   ylab = "Patients", xlab = "Year"
 )
-
 ```

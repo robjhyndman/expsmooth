@@ -39,10 +39,8 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(gasprice, facets = TRUE,
   main = "Gasoline and oil prices",
   ylab = "US dollars", xlab = "Year"
 )
-
 ```

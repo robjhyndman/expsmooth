@@ -68,3 +68,15 @@ pre code span.st /* String         */ {color: #995c7a; font-weight: normal; font
 pre code span.va /* Variable       */ {color: inherit; font-weight: normal; font-style: normal}
 pre code span.vs /* VerbatimString */ {color: #995c7a; font-weight: normal; font-style: normal}
 pre code span.wa /* Warning        */ {color: #736968; font-weight: normal; font-style: normal}
+
+/* Example plots: a white band running edge to edge across the code box
+   (pkgdown's <pre> padding is 0.75rem, or 1rem at the sides on small screens),
+   rather than a white image floating inside the grey padding.
+   A plot that ends the example is followed by a newline, which makes an empty
+   line below the block; the extra -1lh removes it along with the padding. */
+pre .r-plt {display: block; margin: 0.75rem -0.75rem 0;}
+pre .r-plt:last-child {margin-bottom: calc(-0.75rem - 1lh);}
+pre .r-plt img {display: block; width: 100%; max-width: none; height: auto; margin: 0;}
+@media (max-width: 575.98px) {
+  pre .r-plt {margin-left: -1rem; margin-right: -1rem;}
+}

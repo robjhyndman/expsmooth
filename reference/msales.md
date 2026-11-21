@@ -36,7 +36,6 @@ Springer.
 ## Examples
 
 ``` r
-
 stock <- factor(msales[, "stockouts"],
   labels = c("Excess stock", "Stock shortage")
 )
@@ -46,5 +45,4 @@ autoplot(msales[, "Sales"],
 ) +
   ggplot2::geom_point(ggplot2::aes(shape = stock)) +
   ggplot2::labs(shape = NULL)
-
 ```

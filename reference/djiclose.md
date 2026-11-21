@@ -36,10 +36,8 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(djiclose, facets = TRUE,
   main = "Dow Jones Index",
   ylab = "", xlab = "Year"
 )
-
 ```

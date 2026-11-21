@@ -27,10 +27,8 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(ausgdp,
   main = "Australian GDP per capita",
   ylab = "dollars", xlab = "Year"
 )
-
 ```

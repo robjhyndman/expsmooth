@@ -27,10 +27,8 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(partx,
   main = "Monthly sales of an automobile part",
   ylab = "Sales", xlab = "Year"
 )
-
 ```

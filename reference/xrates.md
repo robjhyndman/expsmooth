@@ -36,10 +36,8 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(xrates, facets = TRUE,
   main = "Foreign exchange rates",
   ylab = "", xlab = "Year"
 )
-
 ```

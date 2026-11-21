@@ -28,10 +28,8 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(frexport,
   main = "Quarterly exports",
   ylab = "thousands of francs", xlab = "Year"
 )
-
 ```

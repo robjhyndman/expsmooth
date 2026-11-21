@@ -28,10 +28,8 @@ Springer.
 ## Examples
 
 ``` r
-
 autoplot(carparts[, 2001:2005], facets = TRUE,
   main = "Monthly car part sales",
   ylab = "Sales", xlab = "Year"
 )
-
 ```
