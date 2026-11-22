@@ -14,14 +14,14 @@ Source:
 
 Hyndman RJ (2026). *expsmooth: Data sets from "Forecasting with
 Exponential Smoothing: The State Space Approach" by Hyndman, Koehler,
-Ord and Snyder (Springer, 2008)*. R package version 2.3.0.9000,
+Ord and Snyder (Springer, 2008)*. R package version 2.4.0,
 <https://pkg.robjhyndman.com/expsmooth/>.
 
     @Manual{,
       title = {expsmooth: Data sets from "Forecasting with Exponential Smoothing: The State Space Approach" by Hyndman, Koehler, Ord and Snyder (Springer, 2008)},
       author = {Rob J Hyndman},
       year = {2026},
-      note = {R package version 2.3.0.9000},
+      note = {R package version 2.4.0},
       url = {https://pkg.robjhyndman.com/expsmooth/},
     }
 
