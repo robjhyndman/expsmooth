@@ -10,3 +10,5 @@
 ^hex$
 ^tasks$
 ^man-roxygen$
+^cran-comments\.md$
+^revdep$
