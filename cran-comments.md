@@ -3,6 +3,7 @@
 - Kubuntu 26.04 (local): R 4.6.2
 - macOS (on GitHub Actions): release
 - windows (on GitHub Actions): release
+- Ubuntu (on GitHub Actions): oldrel, release, devel
 - win-builder: devel
 
 ## R CMD check results
