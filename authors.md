@@ -10,7 +10,7 @@
 ## Citation
 
 Source:
-[`inst/CITATION`](https://github.com/robjhyndman/expsmooth/blob/master/inst/CITATION)
+[`inst/CITATION`](https://github.com/robjhyndman/expsmooth/blob/v2.4.0/inst/CITATION)
 
 Hyndman RJ (2026). *expsmooth: Data sets from "Forecasting with
 Exponential Smoothing: The State Space Approach" by Hyndman, Koehler,

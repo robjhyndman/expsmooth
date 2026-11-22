@@ -2,6 +2,8 @@
 
 ## expsmooth 2.4.0
 
+CRAN release: 2026-11-22
+
 - Added a vignette with worked examples from Chapters 1 and 2 of the
   book (thanks to Justin Carmody).
 - Improved documentation for all data sets.
